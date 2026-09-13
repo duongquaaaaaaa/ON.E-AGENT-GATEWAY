@@ -1,0 +1,947 @@
+[
+  {
+    "product_id": "MON-27-4K-01",
+    "product_name": "ProVision UltraView 27\" 4K",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 67.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-QHD-02",
+    "product_name": "ProVision GameStorm 27\" QHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-32-4K-03",
+    "product_name": "ProVision StudioPro 32\" 4K",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 30.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 86.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-24-FHD-04",
+    "product_name": "TechView Office 24\" FHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 82.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-34-UW-05",
+    "product_name": "UltraWide ProCurve 34\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 82.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-FHD-06",
+    "product_name": "SpeedX Blitz 27\" FHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-49-SUW-07",
+    "product_name": "ProVision MegaView 49\" Super UltraWide",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 82.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-4K-08",
+    "product_name": "ClearView HDR Pro 27\"",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 0.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 43.6,
+    "tier": "red",
+    "weakest_axis": "machine_readability",
+    "improvement_suggestion": "Add more structured spec entries (panel type, resolution, refresh rate, ports) with high-confidence extraction. Avoid free-text-only specs."
+  },
+  {
+    "product_id": "MON-32-QHD-09",
+    "product_name": "TechView Creator 32\" QHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 30.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 86.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-24-FHD-10",
+    "product_name": "SpeedX Entry 24\" FHD",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 65.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-5K-11",
+    "product_name": "ProVision Studio 5K 27\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-15-FHD-12",
+    "product_name": "TechView Portable 15.6\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-OLED-13",
+    "product_name": "ProVision OLED Master 27\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-24-TN-14",
+    "product_name": "SpeedX Esports 24.5\"",
+    "axes": {
+      "completeness": 83.3,
+      "machine_readability": 0.0,
+      "retrievability": 0.0,
+      "answerability": 14.3,
+      "transactability": 75.0
+    },
+    "overall_score": 34.9,
+    "tier": "red",
+    "weakest_axis": "machine_readability",
+    "improvement_suggestion": "Add more structured spec entries (panel type, resolution, refresh rate, ports) with high-confidence extraction. Avoid free-text-only specs."
+  },
+  {
+    "product_id": "MON-32-4K-15",
+    "product_name": "ClearView Cinema 32\" 4K HDR",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 82.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-MINI-16",
+    "product_name": "TechView MiniLED 27\" 4K",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-21-FHD-17",
+    "product_name": "ClearView Basic 21.5\"",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 65.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-QHD-18",
+    "product_name": "ProVision FlexArm 27\" QHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 82.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-4K-19",
+    "product_name": "SpeedX Quantum 27\" 4K Gaming",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 85.7,
+      "transactability": 100.0
+    },
+    "overall_score": 79.1,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-43-4K-20",
+    "product_name": "ClearView BigScreen 43\" 4K",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 67.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-FHD-21",
+    "product_name": "TechView WebCam 27\" FHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 69.7,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-16-OLED-22",
+    "product_name": "ProVision OLED Portable 16\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 71.4,
+      "transactability": 100.0
+    },
+    "overall_score": 74.3,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-24-TOUCH-23",
+    "product_name": "TechView Touch 24\" FHD",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 65.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-GAME-24",
+    "product_name": "ClearView Arena 27\" QHD",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 0.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 43.6,
+    "tier": "red",
+    "weakest_axis": "machine_readability",
+    "improvement_suggestion": "Add more structured spec entries (panel type, resolution, refresh rate, ports) with high-confidence extraction. Avoid free-text-only specs."
+  },
+  {
+    "product_id": "MON-32-CURVED-25",
+    "product_name": "SpeedX Horizon 32\" QHD Curved",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 30.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 86.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-27-NANO-26",
+    "product_name": "ProVision NanoEdge 27\" 4K",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-24-PRO-27",
+    "product_name": "ClearView ProColor 24\" FHD",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 57.1,
+      "transactability": 75.0
+    },
+    "overall_score": 65.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-34-OLED-28",
+    "product_name": "ProVision OLED Wide 34\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 20.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 84.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "MON-17-FHD-29",
+    "product_name": "TechView Field 17.3\" FHD",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-MBP-14",
+    "product_name": "MacBook Pro 14 inch M4 Pro",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-MBP-16",
+    "product_name": "MacBook Pro 16 inch M4 Max",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-MBA-13",
+    "product_name": "MacBook Air 13 inch M4",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 57.1,
+      "transactability": 100.0
+    },
+    "overall_score": 71.4,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-MBA-15",
+    "product_name": "MacBook Air 15 inch M4",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-DELL-14",
+    "product_name": "Dell XPS 14",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-DELL-16",
+    "product_name": "Dell XPS 16",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-THINK-14",
+    "product_name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-THINK-16",
+    "product_name": "Lenovo ThinkPad T16 Gen 3",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-ASUS-14",
+    "product_name": "ASUS ZenBook 14 OLED",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-ASUS-16",
+    "product_name": "ASUS ROG Zephyrus G16",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-HP-14",
+    "product_name": "HP Spectre x360 14",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 75.0
+    },
+    "overall_score": 64.8,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-HP-16",
+    "product_name": "HP ZBook Studio 16 G11",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-SURFACE-14",
+    "product_name": "Microsoft Surface Laptop 7",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-SURFACE-15",
+    "product_name": "Microsoft Surface Laptop Studio 3",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 0.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 43.6,
+    "tier": "red",
+    "weakest_axis": "machine_readability",
+    "improvement_suggestion": "Add more structured spec entries (panel type, resolution, refresh rate, ports) with high-confidence extraction. Avoid free-text-only specs."
+  },
+  {
+    "product_id": "LAP-LG-16",
+    "product_name": "LG Gram 16 Pro",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-ACER-15",
+    "product_name": "Acer Predator Helios 16",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 100.0,
+      "transactability": 100.0
+    },
+    "overall_score": 80.0,
+    "tier": "green",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "LAP-ACER-14",
+    "product_name": "Acer Swift Go 14 AI",
+    "axes": {
+      "completeness": 91.7,
+      "machine_readability": 0.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 43.6,
+    "tier": "red",
+    "weakest_axis": "machine_readability",
+    "improvement_suggestion": "Add more structured spec entries (panel type, resolution, refresh rate, ports) with high-confidence extraction. Avoid free-text-only specs."
+  },
+  {
+    "product_id": "LAP-RAZER-14",
+    "product_name": "Razer Blade 14",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 85.7,
+      "transactability": 100.0
+    },
+    "overall_score": 77.1,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-DOCK-01",
+    "product_name": "ProVision ThunderDock Pro",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 10.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 70.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-DOCK-02",
+    "product_name": "TechView USB-C Hub 7-in-1",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-STAND-01",
+    "product_name": "ProVision Monitor Arm Dual",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-STAND-02",
+    "product_name": "TechView Laptop Stand Adjustable",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-CABLE-01",
+    "product_name": "ProVision USB-C to USB-C Cable 2m",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 65.7,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-CABLE-02",
+    "product_name": "TechView HDMI 2.1 Cable 3m",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-CHARGER-01",
+    "product_name": "ProVision GaN Charger 140W",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 14.3,
+      "transactability": 75.0
+    },
+    "overall_score": 59.1,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-KVM-01",
+    "product_name": "ProVision KVM Switch 4K Dual",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-WEBCAM-01",
+    "product_name": "ClearView StreamCam 4K",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-MOUSE-01",
+    "product_name": "SpeedX ProAim Wireless",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-KB-01",
+    "product_name": "SpeedX MechForce TKL",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-HEADSET-01",
+    "product_name": "ClearView SonicPro ANC",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 65.7,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-MAT-01",
+    "product_name": "SpeedX GlideZone XXL",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 57.1,
+      "transactability": 100.0
+    },
+    "overall_score": 71.4,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-ADAPTER-01",
+    "product_name": "TechView USB-C to DisplayPort Adapter",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 71.4,
+      "transactability": 100.0
+    },
+    "overall_score": 74.3,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-LIGHT-01",
+    "product_name": "ClearView ScreenBar Pro",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 28.6,
+      "transactability": 100.0
+    },
+    "overall_score": 65.7,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  },
+  {
+    "product_id": "ACC-PRIVACY-01",
+    "product_name": "TechView Privacy Screen 27\"",
+    "axes": {
+      "completeness": 100.0,
+      "machine_readability": 100.0,
+      "retrievability": 0.0,
+      "answerability": 42.9,
+      "transactability": 100.0
+    },
+    "overall_score": 68.6,
+    "tier": "yellow",
+    "weakest_axis": "retrievability",
+    "improvement_suggestion": "Enrich tags with use-case keywords (e.g. 'gaming', 'graphic_design', '4K'), improve category naming, and ensure agent_text covers key buyer search terms."
+  }
+]
