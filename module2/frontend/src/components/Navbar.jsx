@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 const NAV_ITEMS = [
   { to: "/", label: "Product List", icon: "📦", end: true },
   { to: "/simulator", label: "Query Simulator", icon: "🤖" },
+  { to: "/compare", label: "Before / After", icon: "🔄" },
 ];
 
 export default function Navbar() {

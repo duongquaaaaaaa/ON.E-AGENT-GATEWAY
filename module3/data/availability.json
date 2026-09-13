@@ -1,44 +1,443 @@
 {
-  "SKU001": {
-    "sku": "SKU001",
-    "price": 129.00,
-    "currency": "USD",
-    "stock": 42,
+  "MON-27-4K-01": {
+    "sku": "MON-27-4K-01",
+    "price": 899,
+    "currency": "AUD",
+    "stock": 45,
     "updated_at": "2026-09-13T00:00:00Z"
   },
-  "SKU002": {
-    "sku": "SKU002",
-    "price": 99.00,
-    "currency": "USD",
+  "MON-27-QHD-02": {
+    "sku": "MON-27-QHD-02",
+    "price": 749,
+    "currency": "AUD",
+    "stock": 32,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-32-4K-03": {
+    "sku": "MON-32-4K-03",
+    "price": 1299,
+    "currency": "AUD",
+    "stock": 18,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-24-FHD-04": {
+    "sku": "MON-24-FHD-04",
+    "price": 329,
+    "currency": "AUD",
+    "stock": 120,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-34-UW-05": {
+    "sku": "MON-34-UW-05",
+    "price": 1099,
+    "currency": "AUD",
+    "stock": 22,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-FHD-06": {
+    "sku": "MON-27-FHD-06",
+    "price": 549,
+    "currency": "AUD",
+    "stock": 55,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-49-SUW-07": {
+    "sku": "MON-49-SUW-07",
+    "price": 1899,
+    "currency": "AUD",
+    "stock": 8,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-4K-08": {
+    "sku": "MON-27-4K-08",
+    "price": 999,
+    "currency": "AUD",
     "stock": 28,
     "updated_at": "2026-09-13T00:00:00Z"
   },
-  "SKU003": {
-    "sku": "SKU003",
-    "price": 149.00,
-    "currency": "USD",
+  "MON-32-QHD-09": {
+    "sku": "MON-32-QHD-09",
+    "price": 899,
+    "currency": "AUD",
+    "stock": 35,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-24-FHD-10": {
+    "sku": "MON-24-FHD-10",
+    "price": 249,
+    "currency": "AUD",
+    "stock": 200,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-5K-11": {
+    "sku": "MON-27-5K-11",
+    "price": 1699,
+    "currency": "AUD",
+    "stock": 12,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-15-FHD-12": {
+    "sku": "MON-15-FHD-12",
+    "price": 399,
+    "currency": "AUD",
+    "stock": 60,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-OLED-13": {
+    "sku": "MON-27-OLED-13",
+    "price": 1399,
+    "currency": "AUD",
     "stock": 15,
     "updated_at": "2026-09-13T00:00:00Z"
   },
-  "SKU004": {
-    "sku": "SKU004",
-    "price": 119.00,
-    "currency": "USD",
-    "stock": 33,
+  "MON-24-TN-14": {
+    "sku": "MON-24-TN-14",
+    "price": 449,
+    "currency": "AUD",
+    "stock": 40,
     "updated_at": "2026-09-13T00:00:00Z"
   },
-  "SKU005": {
-    "sku": "SKU005",
-    "price": 149.99,
-    "currency": "USD",
+  "MON-32-4K-15": {
+    "sku": "MON-32-4K-15",
+    "price": 799,
+    "currency": "AUD",
+    "stock": 42,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-MINI-16": {
+    "sku": "MON-27-MINI-16",
+    "price": 1199,
+    "currency": "AUD",
     "stock": 20,
     "updated_at": "2026-09-13T00:00:00Z"
   },
-  "SKU006": {
-    "sku": "SKU006",
-    "price": 399.00,
-    "currency": "USD",
+  "MON-21-FHD-17": {
+    "sku": "MON-21-FHD-17",
+    "price": 179,
+    "currency": "AUD",
+    "stock": 300,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-QHD-18": {
+    "sku": "MON-27-QHD-18",
+    "price": 849,
+    "currency": "AUD",
+    "stock": 30,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-4K-19": {
+    "sku": "MON-27-4K-19",
+    "price": 1149,
+    "currency": "AUD",
+    "stock": 25,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-43-4K-20": {
+    "sku": "MON-43-4K-20",
+    "price": 699,
+    "currency": "AUD",
+    "stock": 15,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-FHD-21": {
+    "sku": "MON-27-FHD-21",
+    "price": 479,
+    "currency": "AUD",
+    "stock": 50,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-16-OLED-22": {
+    "sku": "MON-16-OLED-22",
+    "price": 699,
+    "currency": "AUD",
+    "stock": 25,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-24-TOUCH-23": {
+    "sku": "MON-24-TOUCH-23",
+    "price": 549,
+    "currency": "AUD",
+    "stock": 30,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-GAME-24": {
+    "sku": "MON-27-GAME-24",
+    "price": 649,
+    "currency": "AUD",
+    "stock": 45,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-32-CURVED-25": {
+    "sku": "MON-32-CURVED-25",
+    "price": 849,
+    "currency": "AUD",
+    "stock": 35,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-27-NANO-26": {
+    "sku": "MON-27-NANO-26",
+    "price": 949,
+    "currency": "AUD",
+    "stock": 30,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-24-PRO-27": {
+    "sku": "MON-24-PRO-27",
+    "price": 599,
+    "currency": "AUD",
+    "stock": 20,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-34-OLED-28": {
+    "sku": "MON-34-OLED-28",
+    "price": 1599,
+    "currency": "AUD",
+    "stock": 10,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "MON-17-FHD-29": {
+    "sku": "MON-17-FHD-29",
+    "price": 549,
+    "currency": "AUD",
+    "stock": 15,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-MBP-14": {
+    "sku": "LAP-MBP-14",
+    "price": 2999,
+    "currency": "AUD",
+    "stock": 30,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-MBP-16": {
+    "sku": "LAP-MBP-16",
+    "price": 4999,
+    "currency": "AUD",
+    "stock": 15,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-MBA-13": {
+    "sku": "LAP-MBA-13",
+    "price": 1799,
+    "currency": "AUD",
+    "stock": 50,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-MBA-15": {
+    "sku": "LAP-MBA-15",
+    "price": 2199,
+    "currency": "AUD",
+    "stock": 35,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-DELL-14": {
+    "sku": "LAP-DELL-14",
+    "price": 2499,
+    "currency": "AUD",
+    "stock": 20,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-DELL-16": {
+    "sku": "LAP-DELL-16",
+    "price": 3299,
+    "currency": "AUD",
+    "stock": 12,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-THINK-14": {
+    "sku": "LAP-THINK-14",
+    "price": 2799,
+    "currency": "AUD",
+    "stock": 25,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-THINK-16": {
+    "sku": "LAP-THINK-16",
+    "price": 1899,
+    "currency": "AUD",
+    "stock": 40,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-ASUS-14": {
+    "sku": "LAP-ASUS-14",
+    "price": 1999,
+    "currency": "AUD",
+    "stock": 28,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-ASUS-16": {
+    "sku": "LAP-ASUS-16",
+    "price": 3499,
+    "currency": "AUD",
+    "stock": 18,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-HP-14": {
+    "sku": "LAP-HP-14",
+    "price": 2599,
+    "currency": "AUD",
+    "stock": 22,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-HP-16": {
+    "sku": "LAP-HP-16",
+    "price": 4299,
+    "currency": "AUD",
     "stock": 8,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-SURFACE-14": {
+    "sku": "LAP-SURFACE-14",
+    "price": 2199,
+    "currency": "AUD",
+    "stock": 32,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-SURFACE-15": {
+    "sku": "LAP-SURFACE-15",
+    "price": 3599,
+    "currency": "AUD",
+    "stock": 10,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-LG-16": {
+    "sku": "LAP-LG-16",
+    "price": 2099,
+    "currency": "AUD",
+    "stock": 18,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-ACER-15": {
+    "sku": "LAP-ACER-15",
+    "price": 3199,
+    "currency": "AUD",
+    "stock": 15,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-ACER-14": {
+    "sku": "LAP-ACER-14",
+    "price": 1599,
+    "currency": "AUD",
+    "stock": 45,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "LAP-RAZER-14": {
+    "sku": "LAP-RAZER-14",
+    "price": 3799,
+    "currency": "AUD",
+    "stock": 10,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-DOCK-01": {
+    "sku": "ACC-DOCK-01",
+    "price": 349,
+    "currency": "AUD",
+    "stock": 50,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-DOCK-02": {
+    "sku": "ACC-DOCK-02",
+    "price": 79,
+    "currency": "AUD",
+    "stock": 200,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-STAND-01": {
+    "sku": "ACC-STAND-01",
+    "price": 199,
+    "currency": "AUD",
+    "stock": 80,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-STAND-02": {
+    "sku": "ACC-STAND-02",
+    "price": 59,
+    "currency": "AUD",
+    "stock": 150,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-CABLE-01": {
+    "sku": "ACC-CABLE-01",
+    "price": 39,
+    "currency": "AUD",
+    "stock": 500,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-CABLE-02": {
+    "sku": "ACC-CABLE-02",
+    "price": 29,
+    "currency": "AUD",
+    "stock": 400,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-CHARGER-01": {
+    "sku": "ACC-CHARGER-01",
+    "price": 99,
+    "currency": "AUD",
+    "stock": 100,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-KVM-01": {
+    "sku": "ACC-KVM-01",
+    "price": 189,
+    "currency": "AUD",
+    "stock": 35,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-WEBCAM-01": {
+    "sku": "ACC-WEBCAM-01",
+    "price": 179,
+    "currency": "AUD",
+    "stock": 60,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-MOUSE-01": {
+    "sku": "ACC-MOUSE-01",
+    "price": 149,
+    "currency": "AUD",
+    "stock": 75,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-KB-01": {
+    "sku": "ACC-KB-01",
+    "price": 199,
+    "currency": "AUD",
+    "stock": 45,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-HEADSET-01": {
+    "sku": "ACC-HEADSET-01",
+    "price": 279,
+    "currency": "AUD",
+    "stock": 40,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-MAT-01": {
+    "sku": "ACC-MAT-01",
+    "price": 49,
+    "currency": "AUD",
+    "stock": 200,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-ADAPTER-01": {
+    "sku": "ACC-ADAPTER-01",
+    "price": 35,
+    "currency": "AUD",
+    "stock": 150,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-LIGHT-01": {
+    "sku": "ACC-LIGHT-01",
+    "price": 89,
+    "currency": "AUD",
+    "stock": 80,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "ACC-PRIVACY-01": {
+    "sku": "ACC-PRIVACY-01",
+    "price": 69,
+    "currency": "AUD",
+    "stock": 60,
     "updated_at": "2026-09-13T00:00:00Z"
   }
 }

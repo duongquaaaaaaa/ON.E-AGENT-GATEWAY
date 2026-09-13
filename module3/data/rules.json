@@ -2,57 +2,338 @@
   "rules": [
     {
       "id": "rule_001",
-      "name": "Mic + Boom Arm Bundle",
-      "description": "Discount when microphone is purchased with a boom arm",
-      "trigger_skus": ["SKU001", "SKU002"],
+      "name": "Bundle: MON-27-4K-01 + ACC-DOCK-01",
+      "description": "USB-C dock mở rộng kết nối cho workstation",
+      "trigger_skus": [
+        "ACC-DOCK-01",
+        "MON-27-4K-01"
+      ],
       "trigger_categories": null,
-      "discount_percent": 15,
-      "price_floor": 180.00,
-      "currency": "USD",
+      "discount_percent": 10,
+      "price_floor": 1060.8,
+      "currency": "AUD",
       "active": true
     },
     {
       "id": "rule_002",
-      "name": "Elgato Mic + Boom Arm Bundle",
-      "description": "Discount when Elgato mic purchased with boom arm",
-      "trigger_skus": ["SKU005", "SKU002"],
+      "name": "Bundle: MON-27-4K-01 + ACC-STAND-01",
+      "description": "Chân đế ergonomic cho làm việc dài",
+      "trigger_skus": [
+        "ACC-STAND-01",
+        "MON-27-4K-01"
+      ],
       "trigger_categories": null,
-      "discount_percent": 12,
-      "price_floor": 210.00,
-      "currency": "USD",
+      "discount_percent": 10,
+      "price_floor": 933.3,
+      "currency": "AUD",
       "active": true
     },
     {
       "id": "rule_003",
-      "name": "Pro Studio Bundle",
-      "description": "Shure SM7B + Focusrite combo for pro setup",
-      "trigger_skus": ["SKU006", "SKU004"],
+      "name": "Bundle: MON-27-4K-01 + ACC-LIGHT-01",
+      "description": "Đèn màn hình giảm mỏi mắt",
+      "trigger_skus": [
+        "ACC-LIGHT-01",
+        "MON-27-4K-01"
+      ],
       "trigger_categories": null,
       "discount_percent": 10,
-      "price_floor": 460.00,
-      "currency": "USD",
+      "price_floor": 839.8,
+      "currency": "AUD",
       "active": true
     },
     {
       "id": "rule_004",
-      "name": "Full Podcasting Starter Bundle",
-      "description": "Mic + boom arm + headphones starter kit",
-      "trigger_skus": ["SKU001", "SKU002", "SKU003"],
+      "name": "Bundle: MON-27-4K-01 + ACC-PRIVACY-01",
+      "description": "Tấm chống nhìn trộm cho văn phòng",
+      "trigger_skus": [
+        "ACC-PRIVACY-01",
+        "MON-27-4K-01"
+      ],
       "trigger_categories": null,
-      "discount_percent": 18,
-      "price_floor": 300.00,
-      "currency": "USD",
+      "discount_percent": 10,
+      "price_floor": 822.8,
+      "currency": "AUD",
       "active": true
     },
     {
       "id": "rule_005",
-      "name": "Category: Mic + Interface",
-      "description": "Any mic purchased with an audio interface",
+      "name": "Bundle: MON-27-4K-01 + ACC-CABLE-01",
+      "description": "Cáp USB-C to DisplayPort chất lượng cao",
+      "trigger_skus": [
+        "ACC-CABLE-01",
+        "MON-27-4K-01"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 797.3,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_006",
+      "name": "Bundle: MON-32-4K-03 + ACC-DOCK-01",
+      "description": "USB-C dock cho workflow đồ họa",
+      "trigger_skus": [
+        "ACC-DOCK-01",
+        "MON-32-4K-03"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1400.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_007",
+      "name": "Bundle: MON-32-4K-03 + ACC-STAND-01",
+      "description": "Monitor arm cho posture tốt hơn",
+      "trigger_skus": [
+        "ACC-STAND-01",
+        "MON-32-4K-03"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1273.3,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_008",
+      "name": "Bundle: MON-32-4K-03 + ACC-LIGHT-01",
+      "description": "Đèn màn hình cho color accuracy",
+      "trigger_skus": [
+        "ACC-LIGHT-01",
+        "MON-32-4K-03"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1179.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_009",
+      "name": "Bundle: MON-27-QHD-02 + ACC-STAND-01",
+      "description": "Chân đế điều chỉnh chiều cao cho gaming",
+      "trigger_skus": [
+        "ACC-STAND-01",
+        "MON-27-QHD-02"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 805.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_010",
+      "name": "Bundle: MON-27-5K-11 + ACC-DOCK-01",
+      "description": "Thunderbolt dock cho workflow chuyên nghiệp",
+      "trigger_skus": [
+        "ACC-DOCK-01",
+        "MON-27-5K-11"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1740.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_011",
+      "name": "Bundle: MON-34-UW-05 + ACC-DOCK-01",
+      "description": "USB-C dock cho đa nhiệm ultrawide",
+      "trigger_skus": [
+        "ACC-DOCK-01",
+        "MON-34-UW-05"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1230.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_012",
+      "name": "Bundle: MON-49-SUW-07 + ACC-DOCK-01",
+      "description": "KVM dock cho multi-source workflow",
+      "trigger_skus": [
+        "ACC-DOCK-01",
+        "MON-49-SUW-07"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1910.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_013",
+      "name": "Bundle: MON-27-OLED-13 + ACC-STAND-01",
+      "description": "Monitor arm bảo vệ panel OLED",
+      "trigger_skus": [
+        "ACC-STAND-01",
+        "MON-27-OLED-13"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1358.3,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_014",
+      "name": "Bundle: MON-34-OLED-28 + ACC-DOCK-01",
+      "description": "USB-C dock cho video editing workflow",
+      "trigger_skus": [
+        "ACC-DOCK-01",
+        "MON-34-OLED-28"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 1655.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_015",
+      "name": "Bundle: MON-27-QHD-18 + ACC-DOCK-02",
+      "description": "USB-C dock nhỏ gọn cho ultrabook",
+      "trigger_skus": [
+        "ACC-DOCK-02",
+        "MON-27-QHD-18"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 788.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_016",
+      "name": "Bundle: MON-27-NANO-26 + ACC-DOCK-02",
+      "description": "Dock adapter cho kết nối nhanh",
+      "trigger_skus": [
+        "ACC-DOCK-02",
+        "MON-27-NANO-26"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 873.8,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_017",
+      "name": "Bundle: MON-27-4K-01 + ACC-ADAPTER-01",
+      "description": "Monitor + USB-C adapter bundle",
+      "trigger_skus": [
+        "ACC-ADAPTER-01",
+        "MON-27-4K-01"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 793.9,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_018",
+      "name": "Bundle: MON-27-4K-01 + ACC-PRIVACY-01 (high-margin)",
+      "description": "Premium monitor + privacy screen — floor protects margin",
+      "trigger_skus": [
+        "ACC-PRIVACY-01",
+        "MON-27-4K-01"
+      ],
+      "trigger_categories": null,
+      "discount_percent": 15,
+      "price_floor": 919.6,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_019",
+      "name": "Category: Laptop Màn hình lớn + Phụ kiện Adapter",
+      "description": "Any Laptop Màn hình lớn with Phụ kiện Adapter",
       "trigger_skus": null,
-      "trigger_categories": ["microphone", "audio_interface"],
+      "trigger_categories": [
+        "Laptop Màn hình lớn",
+        "Phụ kiện Adapter"
+      ],
       "discount_percent": 8,
-      "price_floor": 200.00,
-      "currency": "USD",
+      "price_floor": 100.0,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_020",
+      "name": "Category: Laptop Màn hình lớn + Phụ kiện Bàn phím Gaming",
+      "description": "Any Laptop Màn hình lớn with Phụ kiện Bàn phím Gaming",
+      "trigger_skus": null,
+      "trigger_categories": [
+        "Laptop Màn hình lớn",
+        "Phụ kiện Bàn phím Gaming"
+      ],
+      "discount_percent": 8,
+      "price_floor": 100.0,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_021",
+      "name": "Category: Màn hình + Phụ kiện Adapter",
+      "description": "Any Màn hình with Phụ kiện Adapter",
+      "trigger_skus": null,
+      "trigger_categories": [
+        "Màn hình",
+        "Phụ kiện Adapter"
+      ],
+      "discount_percent": 8,
+      "price_floor": 100.0,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_022",
+      "name": "Category: Màn hình + Phụ kiện Bàn phím Gaming",
+      "description": "Any Màn hình with Phụ kiện Bàn phím Gaming",
+      "trigger_skus": null,
+      "trigger_categories": [
+        "Màn hình",
+        "Phụ kiện Bàn phím Gaming"
+      ],
+      "discount_percent": 8,
+      "price_floor": 100.0,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_023",
+      "name": "Category: Màn hình Chuyên nghiệp + Phụ kiện Adapter",
+      "description": "Any Màn hình Chuyên nghiệp with Phụ kiện Adapter",
+      "trigger_skus": null,
+      "trigger_categories": [
+        "Màn hình Chuyên nghiệp",
+        "Phụ kiện Adapter"
+      ],
+      "discount_percent": 8,
+      "price_floor": 100.0,
+      "currency": "AUD",
+      "active": true
+    },
+    {
+      "id": "rule_024",
+      "name": "Category: Màn hình Chuyên nghiệp + Phụ kiện Bàn phím Gaming",
+      "description": "Any Màn hình Chuyên nghiệp with Phụ kiện Bàn phím Gaming",
+      "trigger_skus": null,
+      "trigger_categories": [
+        "Màn hình Chuyên nghiệp",
+        "Phụ kiện Bàn phím Gaming"
+      ],
+      "discount_percent": 8,
+      "price_floor": 100.0,
+      "currency": "AUD",
       "active": true
     }
   ]

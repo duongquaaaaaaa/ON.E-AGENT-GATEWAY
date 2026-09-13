@@ -3,7 +3,7 @@
     {
       "key": "agt-key-demo-001",
       "agent_id": "agt_demo_1",
-      "name": "Demo Agent 1 (Sample Script)",
+      "name": "Demo Agent 1 (Test Harness Script)",
       "rate_limit_per_minute": 60,
       "active": true
     },
@@ -27,21 +27,35 @@
       "token": "tok_limited_50usd",
       "agent_id": "agt_demo_1",
       "spend_limit_usd": 50.00,
-      "expires_at": "2027-12-31T23:59:59Z",
+      "expires_at": "2026-09-14T05:00:00Z",
       "used_usd": 0.00
     },
     {
       "token": "tok_limited_500usd",
       "agent_id": "agt_demo_2",
       "spend_limit_usd": 500.00,
-      "expires_at": "2027-12-31T23:59:59Z",
+      "expires_at": "2026-09-14T05:00:00Z",
+      "used_usd": 0.00
+    },
+    {
+      "token": "tok_limited_2000aud",
+      "agent_id": "agt_demo_1",
+      "spend_limit_usd": 2000.00,
+      "expires_at": "2026-09-14T05:00:00Z",
+      "used_usd": 0.00
+    },
+    {
+      "token": "tok_judge_5000aud",
+      "agent_id": "agt_judge",
+      "spend_limit_usd": 5000.00,
+      "expires_at": "2026-09-14T05:00:00Z",
       "used_usd": 0.00
     },
     {
       "token": "tok_judge_1000usd",
       "agent_id": "agt_judge",
       "spend_limit_usd": 1000.00,
-      "expires_at": "2027-12-31T23:59:59Z",
+      "expires_at": "2026-09-14T05:00:00Z",
       "used_usd": 0.00
     }
   ]

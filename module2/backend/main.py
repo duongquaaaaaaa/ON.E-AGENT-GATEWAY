@@ -303,3 +303,122 @@ def trigger_scoring(request: Request = None):
             "red":    sum(1 for r in results if r["tier"] == "red"),
         },
     }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Before/After Comparison (AEO-09)
+# ─────────────────────────────────────────────────────────────────────────────
+
+class CompareRequest(BaseModel):
+    question: str
+
+
+@app.post("/compare-before-after", tags=["Comparison"])
+def compare_before_after(body: CompareRequest, request: Request = None):
+    """
+    AEO-09: Compare search results BEFORE vs AFTER catalog standardization.
+    Shows the same query against raw catalog data vs Module 1 standardized data.
+
+    BEFORE: naive keyword match on raw product names/descriptions only.
+    AFTER: enriched match using agent_text, structured specs, tags, and use_cases.
+    """
+    rate_limit_check(request)
+    auth_check(request)
+
+    if not body.question or len(body.question.strip()) < 3:
+        raise HTTPException(status_code=400, detail="Question must be at least 3 characters.")
+
+    question = body.question.strip()
+    products = load_all_products()
+    scores_index = get_scores_index()
+
+    # ── BEFORE: Raw keyword match (simulates pre-standardization) ──────────
+    # Only match against name and category — no structured data
+    import re
+    query_tokens = set(re.findall(r"\b\w+\b", question.lower().replace("_", " ")))
+    stop_words = {"a", "an", "the", "for", "with", "and", "or", "is", "of", "in", "to",
+                  "by", "at", "on", "from", "up", "that", "it", "its", "this", "be",
+                  "under", "below", "above", "dưới", "trên"}
+
+    before_results = []
+    for p in products:
+        # Raw: only name + category (no agent_text, no specs, no tags)
+        raw_text = f"{p.get('name', '')} {p.get('category', '')}".lower()
+        raw_tokens = set(re.findall(r"\b\w+\b", raw_text))
+        overlap = (query_tokens & raw_tokens) - stop_words
+        if len(overlap) >= 1:
+            before_results.append({
+                "product_id": p["id"],
+                "product_name": p["name"],
+                "category": p.get("category", ""),
+                "matched_tokens": sorted(list(overlap)),
+                "match_quality": "keyword_only",
+            })
+
+    # ── AFTER: Enriched semantic match (post-standardization) ──────────────
+    after_results = []
+    for p in products:
+        # Enriched: agent_text + specs + tags + use_cases
+        enriched_parts = [
+            p.get("agent_text", ""),
+            p.get("name", ""),
+            p.get("description", ""),
+            p.get("category", ""),
+            " ".join(str(t) for t in p.get("tags", [])),
+            " ".join(str(uc) for uc in p.get("use_cases", [])),
+        ]
+        specs = p.get("specs", {})
+        if isinstance(specs, dict):
+            for v in specs.values():
+                if isinstance(v, list):
+                    enriched_parts.append(" ".join(str(i) for i in v))
+                else:
+                    enriched_parts.append(str(v))
+
+        enriched_text = " ".join(enriched_parts).lower().replace("_", " ")
+        enriched_tokens = set(re.findall(r"\b\w+\b", enriched_text))
+        overlap = (query_tokens & enriched_tokens) - stop_words
+        if len(overlap) >= 2:
+            score_data = scores_index.get(p["id"], {})
+            after_results.append({
+                "product_id": p["id"],
+                "product_name": p["name"],
+                "category": p.get("category", ""),
+                "matched_tokens": sorted(list(overlap)),
+                "aeo_score": score_data.get("overall_score", 0),
+                "tier": score_data.get("tier", "red"),
+                "match_quality": "semantic_enriched",
+                "matched_specs": [k for k in (specs if isinstance(specs, dict) else {})
+                                  if k.replace("_", " ") in enriched_text
+                                  and any(t in k.replace("_", " ") for t in query_tokens - stop_words)],
+            })
+
+    # Sort after results by AEO score
+    after_results.sort(key=lambda x: -x.get("aeo_score", 0))
+
+    # Calculate improvement metrics
+    before_count = len(before_results)
+    after_count = len(after_results)
+    only_in_after = [r for r in after_results
+                     if r["product_id"] not in {b["product_id"] for b in before_results}]
+
+    return {
+        "question": question,
+        "summary": {
+            "before_matches": before_count,
+            "after_matches": after_count,
+            "new_matches_from_enrichment": len(only_in_after),
+            "improvement": f"+{after_count - before_count} products found"
+                          if after_count > before_count
+                          else f"{after_count - before_count} products",
+        },
+        "before": {
+            "method": "Keyword match on raw product name + category only",
+            "results": before_results[:10],
+        },
+        "after": {
+            "method": "Semantic match using agent_text, structured specs, tags, and use_cases",
+            "results": after_results[:10],
+        },
+    }
+

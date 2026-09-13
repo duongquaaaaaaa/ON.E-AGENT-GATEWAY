@@ -1,6 +1,6 @@
 """
 Module 3 — Pydantic Models
-Request/response schemas for all 5 endpoints.
+Request/response schemas for all endpoints.
 """
 
 from __future__ import annotations
@@ -12,7 +12,7 @@ from pydantic import BaseModel, Field
 # ── Search ────────────────────────────────────────────────────────────
 
 class SearchRequest(BaseModel):
-    query: str = Field(..., description="Natural language product search query", example="beginner-friendly podcasting mic under $150")
+    query: str = Field(..., description="Natural language product search query", example="27 inch 4K monitor compatible with MacBook Pro 14, under 1000 AUD")
 
 
 class SearchResult(BaseModel):
@@ -20,12 +20,16 @@ class SearchResult(BaseModel):
     name: str
     score: float = Field(..., ge=0.0, le=1.0)
     category: Optional[str] = None
+    price: Optional[float] = Field(None, description="Current price in AUD")          # Fix 1
+    currency: Optional[str] = Field(None, description="Currency code (AUD)")           # Fix 1
+    reasoning: Optional[str] = Field(None, description="Why this product matched")     # Fix 10
 
 
 class SearchResponse(BaseModel):
     results: List[SearchResult]
     query: str
     total: int
+    constraints_applied: Optional[List[str]] = Field(None, description="Parsed constraints from query")  # Fix 1
 
 
 # ── Product Detail ────────────────────────────────────────────────────
@@ -33,7 +37,9 @@ class SearchResponse(BaseModel):
 class SpecField(BaseModel):
     value: Optional[Any] = None
     unit: Optional[str] = None
-    confidence: Optional[str] = Field(None, description="high|low")
+    confidence: Optional[str] = Field(None, description="high|medium|low")
+    source_span: Optional[str] = Field(None, description="Source text the value was extracted from")
+    inferred_from: Optional[str] = Field(None, description="If confidence=low, why it was inferred")
 
 
 class WarrantyInfo(BaseModel):
@@ -104,10 +110,12 @@ class CheckoutResponse(BaseModel):
     session_id: str
     status: str
     total: float
-    currency: str = "USD"
+    currency: str = "AUD"
     items: List[CheckoutItem]
     bundle_discount_applied: Optional[float] = None
     audit_ref: str
+    token_remaining: Optional[float] = Field(None, description="Remaining spend limit after this order")  # Fix 8
+    token_expires_at: Optional[str] = Field(None, description="Token expiry datetime")                    # Fix 8
 
 
 # ── Bundle Offer ──────────────────────────────────────────────────────
@@ -120,8 +128,9 @@ class BundleOfferResponse(BaseModel):
     eligible: bool
     rule_id: Optional[str] = None
     rule_name: Optional[str] = None
-    original_total: float
+    original_total: Optional[float] = None
     discounted_total: Optional[float] = None
+    final_total: Optional[float] = None
     discount_percent: Optional[float] = None
     price_floor: Optional[float] = None
     message: str

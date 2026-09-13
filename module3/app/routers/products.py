@@ -3,6 +3,8 @@ Module 3 — /products router
 GET /products/{sku}          — full product detail
 GET /products/{sku}/availability — live price/stock
 GET /products/{sku}/policy   — warranty, returns, shipping
+
+Integrated with Module 1's standardized catalog (63 monitor/display products).
 """
 
 from __future__ import annotations
@@ -48,6 +50,7 @@ async def get_product(sku: str, request: Request):
     """
     Returns the full standardized product record for a given SKU.
     Mirrors Module 1 output schema; adds a `retrieved_at` timestamp.
+    Each spec field includes a confidence flag for anti-hallucination traceability.
     """
     catalog = _catalog()
     if sku not in catalog:
@@ -56,11 +59,18 @@ async def get_product(sku: str, request: Request):
     item = catalog[sku]
 
     # Coerce specs into SpecField objects
+    # Module 1 format: {"field_name": {"value": ..., "unit": ..., "confidence": "high|low", "source_span": ...}}
     raw_specs = item.get("specs", {})
     coerced_specs = {}
     for field_name, field_val in raw_specs.items():
         if isinstance(field_val, dict):
-            coerced_specs[field_name] = SpecField(**field_val)
+            coerced_specs[field_name] = SpecField(
+                value=field_val.get("value"),
+                unit=field_val.get("unit"),
+                confidence=field_val.get("confidence", "low"),
+                source_span=field_val.get("source_span"),         # Fix v2-7: provenance
+                inferred_from=field_val.get("inferred_from"),     # Fix v2-7: provenance
+            )
         else:
             coerced_specs[field_name] = SpecField(value=field_val)
 
@@ -98,7 +108,7 @@ async def get_product(sku: str, request: Request):
 async def get_availability(sku: str, request: Request):
     """
     Returns current price, currency, and stock level for a SKU.
-    Data is served from availability.json (mock); swap for a live backend when ready.
+    Data is sourced from Module 1's standardized catalog (AUD pricing).
     """
     availability = _availability()
     if sku not in availability:
@@ -117,6 +127,7 @@ async def get_availability(sku: str, request: Request):
 async def get_policy(sku: str, request: Request):
     """
     Returns warranty terms, return policy window, and shipping details for a SKU.
+    Warranty data sourced from Module 1's standardized catalog.
     """
     catalog = _catalog()
     if sku not in catalog:
@@ -131,7 +142,7 @@ async def get_policy(sku: str, request: Request):
         exclusions=warranty_raw.get("exclusions", "Physical damage"),
     )
 
-    # Return policy: derive from warranty duration (mock logic)
+    # Return policy: derive from warranty duration
     return_days = 30 if warranty.duration_months >= 24 else 14
 
     returns = ReturnsPolicy(

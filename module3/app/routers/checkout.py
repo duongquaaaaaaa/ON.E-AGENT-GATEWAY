@@ -103,7 +103,7 @@ async def checkout(body: CheckoutRequest, request: Request):
     if original_total > remaining:
         raise HTTPException(
             status_code=402,
-            detail=f"Order total ${original_total:.2f} exceeds remaining spend limit ${remaining:.2f}",
+            detail=f"Order total ${original_total:.2f} AUD exceeds remaining spend limit ${remaining:.2f} AUD",
         )
 
     # Bundle discount check
@@ -141,10 +141,12 @@ async def checkout(body: CheckoutRequest, request: Request):
         session_id=session_id,
         status="confirmed",
         total=final_total,
-        currency="USD",
+        currency="AUD",
         items=body.items,
         bundle_discount_applied=bundle_discount,
         audit_ref=audit_ref,
+        token_remaining=round(remaining - final_total, 2),  # Fix 8
+        token_expires_at=token_rec.get("expires_at"),        # Fix 8
     )
 
 
@@ -159,11 +161,18 @@ async def bundle_offer(body: BundleOfferRequest, request: Request):
     """
     Non-destructive: checks whether a set of SKUs qualifies for a bundle discount
     without creating an order. The policy engine is purely deterministic.
+    Includes anti-abuse price probing detection (DP-04).
     """
     if len(body.skus) < 2:
         raise HTTPException(status_code=422, detail="At least 2 SKUs required for bundle evaluation")
 
-    result = evaluate_bundle(body.skus)
+    # Pass agent_id for anti-abuse tracking (DP-04)
+    agent_id = getattr(request.state, "agent_id", None)
+    result = evaluate_bundle(body.skus, agent_id=agent_id)
+
+    # If blocked by anti-abuse detection, return 429
+    if result.get("blocked"):
+        raise HTTPException(status_code=429, detail=result["message"])
 
     return BundleOfferResponse(
         eligible=result["eligible"],
@@ -171,6 +180,7 @@ async def bundle_offer(body: BundleOfferRequest, request: Request):
         rule_name=result.get("rule_name"),
         original_total=result["original_total"],
         discounted_total=result.get("discounted_total"),
+        final_total=result.get("final_total"),
         discount_percent=result.get("discount_percent"),
         price_floor=result.get("price_floor"),
         message=result["message"],

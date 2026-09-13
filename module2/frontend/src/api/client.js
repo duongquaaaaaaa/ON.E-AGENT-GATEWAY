@@ -34,4 +34,10 @@ export const api = {
 
   runScoring: () =>
     apiFetch("/run-scoring", { method: "POST" }),
+
+  compareBeforeAfter: (question) =>
+    apiFetch("/compare-before-after", {
+      method: "POST",
+      body: JSON.stringify({ question }),
+    }),
 };

@@ -8,6 +8,8 @@ Usage:
 
 The MCP server calls the FastAPI endpoints directly (in-process) rather than
 making HTTP requests, so it can run without a separate server process.
+
+** This is an integration point for the Gateway, not a consumer-facing interface. **
 """
 
 from __future__ import annotations
@@ -49,14 +51,15 @@ async def list_tools() -> List[Tool]:
             name="search_products",
             description=(
                 "Semantic search over the ON.E product catalog. "
-                "Returns ranked SKUs with relevance scores."
+                "Returns ranked SKUs with relevance scores. "
+                "Catalog contains 63 monitor/display products."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
                     "query": {
                         "type": "string",
-                        "description": "Natural language product search query, e.g. 'beginner podcasting mic under $150'",
+                        "description": "Natural language product search query, e.g. '4K monitor for graphic design under 1000 AUD'",
                     }
                 },
                 "required": ["query"],
@@ -66,19 +69,19 @@ async def list_tools() -> List[Tool]:
             name="get_product_detail",
             description=(
                 "Get the full standardized product record for a SKU, "
-                "including specs, compatibility, and warranty."
+                "including specs with confidence flags, compatibility, and warranty."
             ),
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "sku": {"type": "string", "description": "Product SKU, e.g. SKU001"}
+                    "sku": {"type": "string", "description": "Product SKU, e.g. MON-27-4K-01"}
                 },
                 "required": ["sku"],
             },
         ),
         Tool(
             name="get_availability",
-            description="Get current price and stock level for a SKU.",
+            description="Get current price (AUD) and stock level for a SKU.",
             inputSchema={
                 "type": "object",
                 "properties": {
@@ -142,7 +145,7 @@ async def list_tools() -> List[Tool]:
                     },
                     "auth_token": {
                         "type": "string",
-                        "description": "Auth token with spend limit, e.g. tok_limited_50usd",
+                        "description": "Auth token with spend limit, e.g. tok_limited_2000aud",
                     },
                 },
                 "required": ["agent_id", "items", "auth_token"],
@@ -186,7 +189,7 @@ async def _tool_search(args: dict) -> List[TextContent]:
         if score > 0:
             results.append({"sku": product["sku"], "name": product["name"], "score": score, "category": product.get("category")})
     results.sort(key=lambda r: r["score"], reverse=True)
-    return [TextContent(type="text", text=json.dumps({"results": results, "query": query, "total": len(results)}))]
+    return [TextContent(type="text", text=json.dumps({"results": results, "query": query, "total": len(results)}, ensure_ascii=False))]
 
 
 async def _tool_get_product(args: dict) -> List[TextContent]:
@@ -197,7 +200,7 @@ async def _tool_get_product(args: dict) -> List[TextContent]:
     from datetime import datetime
     item = dict(catalog[sku])
     item["retrieved_at"] = datetime.utcnow().isoformat() + "Z"
-    return [TextContent(type="text", text=json.dumps(item))]
+    return [TextContent(type="text", text=json.dumps(item, ensure_ascii=False))]
 
 
 async def _tool_get_availability(args: dict) -> List[TextContent]:
@@ -222,13 +225,13 @@ async def _tool_get_policy(args: dict) -> List[TextContent]:
         "returns": {"window_days": return_days, "conditions": "Original packaging, unused, with all accessories."},
         "shipping": {"eta_days": 3, "cost": 0},
     }
-    return [TextContent(type="text", text=json.dumps(policy))]
+    return [TextContent(type="text", text=json.dumps(policy, ensure_ascii=False))]
 
 
 async def _tool_bundle_offer(args: dict) -> List[TextContent]:
     skus = args["skus"]
     result = evaluate_bundle(skus)
-    return [TextContent(type="text", text=json.dumps(result))]
+    return [TextContent(type="text", text=json.dumps(result, ensure_ascii=False))]
 
 
 async def _tool_checkout(args: dict) -> List[TextContent]:
@@ -264,12 +267,12 @@ async def _tool_checkout(args: dict) -> List[TextContent]:
         "session_id": session_id,
         "status": "confirmed",
         "total": round(final_total, 2),
-        "currency": "USD",
+        "currency": "AUD",
         "items": items,
         "bundle_discount_applied": bundle_discount,
         "audit_ref": audit_ref,
     }
-    return [TextContent(type="text", text=json.dumps(result))]
+    return [TextContent(type="text", text=json.dumps(result, ensure_ascii=False))]
 
 
 # ─────────────────────────────────────────────────────────────────────

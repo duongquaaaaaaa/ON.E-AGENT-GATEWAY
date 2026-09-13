@@ -1,138 +1,3279 @@
 [
   {
-    "sku": "SKU001",
-    "name": "Blue Yeti USB Microphone",
-    "brand": "Blue",
-    "category": "microphone",
+    "sku": "MON-27-4K-01",
+    "name": "ProVision UltraView 27\" 4K",
+    "brand": "ProVision",
+    "category": "Monitor",
     "specs": {
-      "connection_type": {"value": "USB", "unit": null, "confidence": "high"},
-      "polar_pattern": {"value": "Cardioid, Bidirectional, Omnidirectional, Stereo", "unit": null, "confidence": "high"},
-      "freq_response": {"value": "20Hz-20kHz", "unit": "HTZ", "confidence": "high"},
-      "phantom_power": {"value": false, "unit": null, "confidence": "high"},
-      "sample_rate": {"value": "48kHz/16-bit", "unit": "KHZ", "confidence": "high"}
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "resolution": {
+        "value": "3840x2160",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160"
+      },
+      "color_gamut": {
+        "value": "~95% DCI-P3",
+        "unit": null,
+        "confidence": "low",
+        "source_span": "product_description:char_142-178 'vivid colours, professional-grade accuracy'",
+        "inferred_from": "marketing copy — no DCI-P3 percentage found in datasheet"
+      }
     },
-    "use_cases": ["podcasting", "streaming", "vocal_recording", "video_calls"],
-    "skill_level": "beginner",
-    "environment": "home_untreated",
-    "compatible_with": ["SKU002", "SKU004"],
-    "warranty": {
-      "duration_months": 24,
-      "coverage": "Manufacturing defects",
-      "exclusions": "Physical damage, liquid damage"
-    },
-    "vector_id": "vec_001",
-    "description": "The Blue Yeti is a premium USB microphone perfect for beginners and professionals alike. Features four polar patterns for versatile recording."
-  },
-  {
-    "sku": "SKU002",
-    "name": "Rode PSA1 Swivel Mount Studio Microphone Boom Arm",
-    "brand": "Rode",
-    "category": "microphone_accessory",
-    "specs": {
-      "connection_type": {"value": "Desk clamp", "unit": null, "confidence": "high"},
-      "power": {"value": null, "unit": null, "confidence": "high"}
-    },
-    "use_cases": ["podcasting", "streaming", "vocal_recording"],
-    "skill_level": "beginner",
-    "environment": "home_untreated",
-    "compatible_with": ["SKU001", "SKU003"],
+    "use_cases": [
+      "design_work",
+      "photo_editing",
+      "video_editing",
+      "cad"
+    ],
+    "skill_level": "professional",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-ADAPTER-01",
+      "ACC-CABLE-01",
+      "ACC-DOCK-01",
+      "ACC-LIGHT-01",
+      "ACC-PRIVACY-01",
+      "ACC-STAND-01",
+      "LAP-DELL-14",
+      "LAP-MBA-13",
+      "LAP-MBP-14",
+      "LAP-MBP-16"
+    ],
     "warranty": {
       "duration_months": 12,
       "coverage": "Manufacturing defects",
       "exclusions": "Physical damage"
     },
-    "vector_id": "vec_002",
-    "description": "Professional studio arm with smooth 360-degree rotation. Perfect companion for tabletop microphones."
+    "vector_id": "vec_MON-27-4K-01",
+    "description": "ProVision UltraView 27\" 4K (ProVision) - Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS. Resolution: 3840x2160. Ideal for: design_work, photo_editing, video_editing, cad."
   },
   {
-    "sku": "SKU003",
-    "name": "Audio-Technica ATH-M50x Professional Monitor Headphones",
-    "brand": "Audio-Technica",
-    "category": "headphones",
+    "sku": "MON-27-QHD-02",
+    "name": "ProVision GameStorm 27\" QHD",
+    "brand": "ProVision",
+    "category": "Gaming Monitor",
     "specs": {
-      "connection_type": {"value": "3.5mm TRS", "unit": null, "confidence": "high"},
-      "freq_response": {"value": "15Hz-28kHz", "unit": "HTZ", "confidence": "high"},
-      "power": {"value": null, "unit": null, "confidence": "high"}
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "refresh_rate": {
+        "value": "165Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "165Hz"
+      },
+      "resolution": {
+        "value": "2560x1440",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1440"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.0",
+          "1x DisplayPort 1.4"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.0, 1x DisplayPort 1.4"
+      },
+      "power": {
+        "value": "38W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "38W"
+      },
+      "response_time": {
+        "value": "1ms MPRT",
+        "unit": "ms",
+        "confidence": "medium",
+        "source_span": "product_description:char_56-73 'fast 1ms response'",
+        "inferred_from": "description mentions 1ms but MPRT vs GTG not specified"
+      }
     },
-    "use_cases": ["podcasting", "streaming", "vocal_recording", "gaming"],
+    "use_cases": [
+      "gaming",
+      "streaming",
+      "design_work"
+    ],
     "skill_level": "intermediate",
+    "environment": "gaming_setup",
+    "compatible_with": [
+      "ACC-STAND-01",
+      "LAP-MBA-13",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "lỗi kỹ thuật và điểm chết pixel (trên 5 điểm)",
+      "exclusions": "cháy nổ do nguồn điện không ổn định, tự ý sửa chữa, hư hỏng do vận chuyển sau khi nhận hàng"
+    },
+    "vector_id": "vec_MON-27-QHD-02",
+    "description": "ProVision GameStorm 27\" QHD (ProVision) - Gaming Monitor. Specs: Screen Size: 27 inch. Panel Type: VA. Refresh Rate: 165Hz. Resolution: 2560x1440. Ports: ['2x HDMI 2.0', '1x DisplayPort 1.4']. Power: 38W. Ideal for: gaming, streaming, design_work."
+  },
+  {
+    "sku": "MON-32-4K-03",
+    "name": "ProVision StudioPro 32\" 4K",
+    "brand": "ProVision",
+    "category": "Design Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "32 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "32 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "3840x2160",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160"
+      },
+      "ports": {
+        "value": [
+          "1x USB-C PD 90W",
+          "1x HDMI 2.0",
+          "1x DisplayPort 1.4",
+          "hub USB 3.0 x4"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x USB-C PD 90W, 1x HDMI 2.0, 1x DisplayPort 1.4, hub USB 3.0 x4"
+      },
+      "power": {
+        "value": "55W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "55W"
+      },
+      "hdr_support": {
+        "value": "HDR10",
+        "unit": null,
+        "confidence": "low",
+        "source_span": "product_description:char_89-121 'wide contrast range support'",
+        "inferred_from": "marketing copy — no explicit HDR10 certification found in specs"
+      }
+    },
+    "use_cases": [
+      "video_editing",
+      "3d_rendering",
+      "design_work"
+    ],
+    "skill_level": "professional",
     "environment": "studio",
-    "compatible_with": ["SKU001"],
+    "compatible_with": [
+      "ACC-ADAPTER-01",
+      "ACC-DOCK-01",
+      "ACC-LIGHT-01",
+      "ACC-STAND-01",
+      "LAP-HP-16",
+      "LAP-MBP-14",
+      "LAP-MBP-16"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "lỗi phần cứng, điểm chết pixel",
+      "exclusions": "hư hỏng vật lý, vào chất lỏng, sửa chữa bởi bên thứ ba"
+    },
+    "vector_id": "vec_MON-32-4K-03",
+    "description": "ProVision StudioPro 32\" 4K (ProVision) - Design Monitor. Specs: Screen Size: 32 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: 3840x2160. Ports: ['1x USB-C PD 90W', '1x HDMI 2.0', '1x DisplayPort 1.4', 'hub USB 3.0 x4']. Power: 55W. Ideal for: video_editing, 3d_rendering, design_work."
+  },
+  {
+    "sku": "MON-24-FHD-04",
+    "name": "TechView Office 24\" FHD",
+    "brand": "TechView",
+    "category": "Office Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "23.8 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "23.8 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "75Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "75Hz"
+      },
+      "resolution": {
+        "value": "Full HD 1920x1080",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Full HD 1920x1080"
+      },
+      "ports": {
+        "value": [
+          "1x HDMI 1.4",
+          "1x VGA",
+          "1x cổng audio out"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x HDMI 1.4, 1x VGA, 1x cổng audio out"
+      },
+      "power": {
+        "value": "22W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "22W"
+      }
+    },
+    "use_cases": [
+      "office_work",
+      "document_editing",
+      "video_calls"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "lỗi kỹ thuật nhà sản xuất",
+      "exclusions": "rơi vỡ, vào nước, hết hạn bảo hành"
+    },
+    "vector_id": "vec_MON-24-FHD-04",
+    "description": "TechView Office 24\" FHD (TechView) - Office Monitor. Specs: Screen Size: 23.8 inch. Panel Type: IPS. Refresh Rate: 75Hz. Resolution: Full HD 1920x1080. Ports: ['1x HDMI 1.4', '1x VGA', '1x cổng audio out']. Power: 22W. Ideal for: office_work, document_editing, video_calls."
+  },
+  {
+    "sku": "MON-34-UW-05",
+    "name": "UltraWide ProCurve 34\"",
+    "brand": "ProVision",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "34 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "34 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "refresh_rate": {
+        "value": "100Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "100Hz"
+      },
+      "resolution": {
+        "value": "UWQHD 3440x1440",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "UWQHD 3440x1440"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.0",
+          "1x DisplayPort 1.4",
+          "1x USB-C 65W",
+          "hub USB 3.0 x2"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.0, 1x DisplayPort 1.4, 1x USB-C 65W, hub USB 3.0 x2"
+      },
+      "power": {
+        "value": "60W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60W"
+      }
+    },
+    "use_cases": [
+      "video_editing",
+      "multitasking",
+      "immersive_media"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-DOCK-01",
+      "LAP-MBP-14",
+      "LAP-THINK-14"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "toàn bộ linh kiện phần cứng",
+      "exclusions": "rơi vỡ, vào nước, sử dụng sai nguồn điện, tự tháo lắp"
+    },
+    "vector_id": "vec_MON-34-UW-05",
+    "description": "UltraWide ProCurve 34\" (ProVision) - Monitor. Specs: Screen Size: 34 inch. Panel Type: VA. Refresh Rate: 100Hz. Resolution: UWQHD 3440x1440. Ports: ['2x HDMI 2.0', '1x DisplayPort 1.4', '1x USB-C 65W', 'hub USB 3.0 x2']. Power: 60W. Ideal for: video_editing, multitasking, immersive_media."
+  },
+  {
+    "sku": "MON-27-FHD-06",
+    "name": "SpeedX Blitz 27\" FHD",
+    "brand": "SpeedX",
+    "category": "Gaming Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "TN",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "TN"
+      },
+      "refresh_rate": {
+        "value": "240Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "240Hz"
+      },
+      "resolution": {
+        "value": "1920x1080 Full HD",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080 Full HD"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.0",
+          "1x DisplayPort 1.4"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.0, 1x DisplayPort 1.4"
+      },
+      "power": {
+        "value": "35W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "35W"
+      }
+    },
+    "use_cases": [
+      "gaming",
+      "streaming",
+      "esports"
+    ],
+    "skill_level": "beginner",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 18,
+      "coverage": "lỗi panel, lỗi mạch điều khiển",
+      "exclusions": "burn-in do dùng sai, cháy nguồn, rơi vỡ"
+    },
+    "vector_id": "vec_MON-27-FHD-06",
+    "description": "SpeedX Blitz 27\" FHD (SpeedX) - Gaming Monitor. Specs: Screen Size: 27 inch. Panel Type: TN. Refresh Rate: 240Hz. Resolution: 1920x1080 Full HD. Ports: ['2x HDMI 2.0', '1x DisplayPort 1.4']. Power: 35W. Ideal for: gaming, streaming, esports."
+  },
+  {
+    "sku": "MON-49-SUW-07",
+    "name": "ProVision MegaView 49\" Super UltraWide",
+    "brand": "ProVision",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "49 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "49 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "5120x1440",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "5120x1440"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.1",
+          "1x DisplayPort 2.0",
+          "2x USB-C (1 cổng PD 90W)",
+          "hub USB 3.2 x4",
+          "KVM switch"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.1, 1x DisplayPort 2.0, 2x USB-C (1 cổng PD 90W), hub USB 3.2 x4, KVM switch"
+      },
+      "power": {
+        "value": "80W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "80W"
+      }
+    },
+    "use_cases": [
+      "video_editing",
+      "multitasking",
+      "immersive_media"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-DOCK-01",
+      "LAP-HP-16",
+      "LAP-MBP-16"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "VIP on-site tại nhà. Phạm vi: toàn bộ phần cứng kể cả nguồn",
+      "exclusions": "va đập mạnh, vào nước, mở máy sửa chữa không qua trung tâm uỷ quyền"
+    },
+    "vector_id": "vec_MON-49-SUW-07",
+    "description": "ProVision MegaView 49\" Super UltraWide (ProVision) - Monitor. Specs: Screen Size: 49 inch. Panel Type: VA. Refresh Rate: 120Hz. Resolution: 5120x1440. Ports: ['2x HDMI 2.1', '1x DisplayPort 2.0', '2x USB-C (1 cổng PD 90W)', 'hub USB 3.2 x4', 'KVM switch']. Power: 80W. Ideal for: video_editing, multitasking, immersive_media."
+  },
+  {
+    "sku": "MON-27-4K-08",
+    "name": "ClearView HDR Pro 27\"",
+    "brand": "ClearView",
+    "category": "Monitor",
+    "specs": {},
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-MBA-13",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "chính sách tiêu chuẩn",
+      "exclusions": "rơi vỡ, vào nước"
+    },
+    "vector_id": "vec_MON-27-4K-08",
+    "description": "ClearView HDR Pro 27\" (ClearView) - Monitor. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-32-QHD-09",
+    "name": "TechView Creator 32\" QHD",
+    "brand": "TechView",
+    "category": "Design Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "32 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "32 inch"
+      },
+      "panel_type": {
+        "value": "IPS Nano",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS Nano"
+      },
+      "refresh_rate": {
+        "value": "75Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "75Hz"
+      },
+      "resolution": {
+        "value": "2560x1440 QHD",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1440 QHD"
+      },
+      "ports": {
+        "value": [
+          "1x HDMI 2.0",
+          "1x DisplayPort 1.4",
+          "1x USB-C PD 65W"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x HDMI 2.0, 1x DisplayPort 1.4, 1x USB-C PD 65W"
+      },
+      "power": {
+        "value": "42W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "42W"
+      }
+    },
+    "use_cases": [
+      "graphic_design"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-MBA-13",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "lỗi panel và linh kiện điện tử",
+      "exclusions": "hư hỏng do người dùng, vào chất lỏng, sửa chữa trái phép"
+    },
+    "vector_id": "vec_MON-32-QHD-09",
+    "description": "TechView Creator 32\" QHD (TechView) - Design Monitor. Specs: Screen Size: 32 inch. Panel Type: IPS Nano. Refresh Rate: 75Hz. Resolution: 2560x1440 QHD. Ports: ['1x HDMI 2.0', '1x DisplayPort 1.4', '1x USB-C PD 65W']. Power: 42W. Ideal for: graphic_design."
+  },
+  {
+    "sku": "MON-24-FHD-10",
+    "name": "SpeedX Entry 24\" FHD",
+    "brand": "SpeedX",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "24 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "24 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "resolution": {
+        "value": "1920x1080",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080"
+      }
+    },
+    "use_cases": [
+      "gaming",
+      "streaming",
+      "esports"
+    ],
+    "skill_level": "beginner",
+    "environment": "gaming_setup",
+    "compatible_with": [],
     "warranty": {
       "duration_months": 12,
       "coverage": "Manufacturing defects",
-      "exclusions": "Cable damage, ear pad wear"
+      "exclusions": "Physical damage"
     },
-    "vector_id": "vec_003",
-    "description": "Industry-standard professional monitor headphones with exceptional clarity and comfort for extended wear."
+    "vector_id": "vec_MON-24-FHD-10",
+    "description": "SpeedX Entry 24\" FHD (SpeedX) - Monitor. Specs: Screen Size: 24 inch. Panel Type: VA. Resolution: 1920x1080. Ideal for: gaming, streaming, esports."
   },
   {
-    "sku": "SKU004",
-    "name": "Focusrite Scarlett Solo USB Audio Interface",
-    "brand": "Focusrite",
-    "category": "audio_interface",
+    "sku": "MON-27-5K-11",
+    "name": "ProVision Studio 5K 27\"",
+    "brand": "ProVision",
+    "category": "Professional Monitor",
     "specs": {
-      "connection_type": {"value": "USB-C", "unit": null, "confidence": "high"},
-      "sample_rate": {"value": "192kHz/24-bit", "unit": "KHZ", "confidence": "high"},
-      "phantom_power": {"value": true, "unit": null, "confidence": "high"}
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "5120x2880 (5K)",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "5120x2880 (5K)"
+      },
+      "ports": {
+        "value": [
+          "1x Thunderbolt 4 (PD 96W)",
+          "1x HDMI 2.1",
+          "hub USB-C x3"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x Thunderbolt 4 (PD 96W), 1x HDMI 2.1, hub USB-C x3"
+      },
+      "power": {
+        "value": "65W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "65W"
+      }
     },
-    "use_cases": ["vocal_recording", "instrument_recording", "podcasting"],
-    "skill_level": "intermediate",
-    "environment": "studio",
-    "compatible_with": ["SKU001", "SKU003"],
+    "use_cases": [
+      "photo_editing",
+      "video_editing",
+      "graphic_design"
+    ],
+    "skill_level": "professional",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-DOCK-01",
+      "LAP-MBP-14",
+      "LAP-MBP-16"
+    ],
     "warranty": {
       "duration_months": 36,
-      "coverage": "Full hardware warranty",
-      "exclusions": "Software licenses, cosmetic damage"
+      "coverage": "toàn bộ phần cứng, hiệu chuẩn lại miễn phí mỗi năm",
+      "exclusions": "rơi vỡ, vào nước, thay đổi phần cứng không được phép"
     },
-    "vector_id": "vec_004",
-    "description": "The world's best-selling audio interface. Crystal-clear preamps with low noise for professional-quality recordings."
+    "vector_id": "vec_MON-27-5K-11",
+    "description": "ProVision Studio 5K 27\" (ProVision) - Professional Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: 5120x2880 (5K). Ports: ['1x Thunderbolt 4 (PD 96W)', '1x HDMI 2.1', 'hub USB-C x3']. Power: 65W. Ideal for: photo_editing, video_editing, graphic_design."
   },
   {
-    "sku": "SKU005",
-    "name": "Elgato Wave:3 USB Condenser Microphone",
-    "brand": "Elgato",
-    "category": "microphone",
+    "sku": "MON-15-FHD-12",
+    "name": "TechView Portable 15.6\"",
+    "brand": "TechView",
+    "category": "Portable Monitor",
     "specs": {
-      "connection_type": {"value": "USB-C", "unit": null, "confidence": "high"},
-      "polar_pattern": {"value": "Cardioid", "unit": null, "confidence": "high"},
-      "freq_response": {"value": "70Hz-20kHz", "unit": "HTZ", "confidence": "high"},
-      "phantom_power": {"value": false, "unit": null, "confidence": "high"},
-      "sample_rate": {"value": "96kHz/24-bit", "unit": "KHZ", "confidence": "high"}
+      "screen_size": {
+        "value": "15.6 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "15.6 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "Full HD 1920x1080",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Full HD 1920x1080"
+      },
+      "ports": {
+        "value": "1x USB-C (DP Alt mode + PD 15W), 1x mini-HDMI",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x USB-C (DP Alt mode + PD 15W), 1x mini-HDMI"
+      },
+      "power": {
+        "value": "8W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "8W"
+      }
     },
-    "use_cases": ["streaming", "podcasting", "gaming", "video_calls"],
+    "use_cases": [
+      "travel",
+      "mobile_work",
+      "presentations"
+    ],
     "skill_level": "beginner",
-    "environment": "home_untreated",
-    "compatible_with": ["SKU002"],
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi panel và mạch điều khiển",
+      "exclusions": "rơi vỡ, gập quá mạnh gây hỏng bản lề, vào nước"
+    },
+    "vector_id": "vec_MON-15-FHD-12",
+    "description": "TechView Portable 15.6\" (TechView) - Portable Monitor. Specs: Screen Size: 15.6 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: Full HD 1920x1080. Ports: 1x USB-C (DP Alt mode + PD 15W), 1x mini-HDMI. Power: 8W. Ideal for: travel, mobile_work, presentations."
+  },
+  {
+    "sku": "MON-27-OLED-13",
+    "name": "ProVision OLED Master 27\"",
+    "brand": "ProVision",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "QD-OLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "QD-OLED"
+      },
+      "refresh_rate": {
+        "value": "144Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "144Hz"
+      },
+      "resolution": {
+        "value": "3840x2160 4K",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160 4K"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.1",
+          "1x DisplayPort 2.0",
+          "1x USB-C PD 65W"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.1, 1x DisplayPort 2.0, 1x USB-C PD 65W"
+      },
+      "power": {
+        "value": "50W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "50W"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "professional",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-STAND-01",
+      "LAP-DELL-16",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "panel OLED, mạch điều khiển, nguồn",
+      "exclusions": "rơi vỡ, vào nước, tự ý tháo máy"
+    },
+    "vector_id": "vec_MON-27-OLED-13",
+    "description": "ProVision OLED Master 27\" (ProVision) - Monitor. Specs: Screen Size: 27 inch. Panel Type: QD-OLED. Refresh Rate: 144Hz. Resolution: 3840x2160 4K. Ports: ['2x HDMI 2.1', '1x DisplayPort 2.0', '1x USB-C PD 65W']. Power: 50W. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-24-TN-14",
+    "name": "SpeedX Esports 24.5\"",
+    "brand": "SpeedX",
+    "category": "Monitor",
+    "specs": {},
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage"
+    },
+    "vector_id": "vec_MON-24-TN-14",
+    "description": "SpeedX Esports 24.5\" (SpeedX) - Monitor. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-32-4K-15",
+    "name": "ClearView Cinema 32\" 4K HDR",
+    "brand": "ClearView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "32 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "32 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "4K 3840x2160",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4K 3840x2160"
+      },
+      "ports": {
+        "value": [
+          "3x HDMI 2.0 (1 cổng ARC)",
+          "1x quang học",
+          "1x USB media"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3x HDMI 2.0 (1 cổng ARC), 1x quang học, 1x USB media"
+      },
+      "power": {
+        "value": "48W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "48W"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-MBA-13",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": [
+        "panel",
+        "loa",
+        "nguồn"
+      ],
+      "exclusions": "rơi vỡ, vào nước, sử dụng ngoài trời"
+    },
+    "vector_id": "vec_MON-32-4K-15",
+    "description": "ClearView Cinema 32\" 4K HDR (ClearView) - Monitor. Specs: Screen Size: 32 inch. Panel Type: VA. Refresh Rate: 60Hz. Resolution: 4K 3840x2160. Ports: ['3x HDMI 2.0 (1 cổng ARC)', '1x quang học', '1x USB media']. Power: 48W. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-27-MINI-16",
+    "name": "TechView MiniLED 27\" 4K",
+    "brand": "TechView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS + MiniLED backlight",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS + MiniLED backlight"
+      },
+      "refresh_rate": {
+        "value": "160Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "160Hz"
+      },
+      "resolution": {
+        "value": "3840x2160 4K",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160 4K"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.1",
+          "1x DisplayPort 2.0",
+          "1x USB-C PD 65W"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.1, 1x DisplayPort 2.0, 1x USB-C PD 65W"
+      },
+      "power": {
+        "value": "70W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "70W"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-MBA-13",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "panel, LED backlight, nguồn",
+      "exclusions": "hư hỏng do thiên tai, tự sửa chữa, dùng nguồn điện không đúng"
+    },
+    "vector_id": "vec_MON-27-MINI-16",
+    "description": "TechView MiniLED 27\" 4K (TechView) - Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS + MiniLED backlight. Refresh Rate: 160Hz. Resolution: 3840x2160 4K. Ports: ['2x HDMI 2.1', '1x DisplayPort 2.0', '1x USB-C PD 65W']. Power: 70W. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-21-FHD-17",
+    "name": "ClearView Basic 21.5\"",
+    "brand": "ClearView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "21.5 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "21.5 inch"
+      },
+      "panel_type": {
+        "value": "TN",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "TN"
+      },
+      "resolution": {
+        "value": "1920x1080",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage"
+    },
+    "vector_id": "vec_MON-21-FHD-17",
+    "description": "ClearView Basic 21.5\" (ClearView) - Monitor. Specs: Screen Size: 21.5 inch. Panel Type: TN. Resolution: 1920x1080. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-27-QHD-18",
+    "name": "ProVision FlexArm 27\" QHD",
+    "brand": "ProVision",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "75Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "75Hz"
+      },
+      "resolution": {
+        "value": "2560x1440 QHD",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1440 QHD"
+      },
+      "ports": {
+        "value": [
+          "1x HDMI 2.0",
+          "1x DisplayPort 1.4",
+          "1x USB-C PD 65W",
+          "hub USB 3.0 x4",
+          "RJ45 Ethernet"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x HDMI 2.0, 1x DisplayPort 1.4, 1x USB-C PD 65W, hub USB 3.0 x4, RJ45 Ethernet"
+      },
+      "power": {
+        "value": "38W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "38W"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-DOCK-02",
+      "LAP-MBA-13",
+      "LAP-MBA-15",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "toàn bộ phần cứng",
+      "exclusions": "hư hỏng cơ học do quá tải, vào nước, tự sửa"
+    },
+    "vector_id": "vec_MON-27-QHD-18",
+    "description": "ProVision FlexArm 27\" QHD (ProVision) - Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS. Refresh Rate: 75Hz. Resolution: 2560x1440 QHD. Ports: ['1x HDMI 2.0', '1x DisplayPort 1.4', '1x USB-C PD 65W', 'hub USB 3.0 x4', 'RJ45 Ethernet']. Power: 38W. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-27-4K-19",
+    "name": "SpeedX Quantum 27\" 4K Gaming",
+    "brand": "SpeedX",
+    "category": "Gaming Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "resolution": {
+        "value": "3840x2160",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.1",
+          "1x DP 2.0",
+          "1x USB-C",
+          "hub USB 3.2 x3"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.1, 1x DP 2.0, 1x USB-C, hub USB 3.2 x3"
+      },
+      "power": {
+        "value": "55W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "55W"
+      }
+    },
+    "use_cases": [
+      "gaming"
+    ],
+    "skill_level": "beginner",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "panel, nguồn, mạch điều khiển",
+      "exclusions": "burn-in do sử dụng sai, rơi vỡ, vào nước, tự tháo máy"
+    },
+    "vector_id": "vec_MON-27-4K-19",
+    "description": "SpeedX Quantum 27\" 4K Gaming (SpeedX) - Gaming Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS. Resolution: 3840x2160. Ports: ['2x HDMI 2.1', '1x DP 2.0', '1x USB-C', 'hub USB 3.2 x3']. Power: 55W. Ideal for: gaming."
+  },
+  {
+    "sku": "MON-43-4K-20",
+    "name": "ClearView BigScreen 43\" 4K",
+    "brand": "ClearView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "43 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "43 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "resolution": {
+        "value": "3840x2160 4K",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160 4K"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage"
+    },
+    "vector_id": "vec_MON-43-4K-20",
+    "description": "ClearView BigScreen 43\" 4K (ClearView) - Monitor. Specs: Screen Size: 43 inch. Panel Type: VA. Resolution: 3840x2160 4K. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-27-FHD-21",
+    "name": "TechView WebCam 27\" FHD",
+    "brand": "TechView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "resolution": {
+        "value": "1920x1080 Full HD",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080 Full HD"
+      }
+    },
+    "use_cases": [
+      "Họp online"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "hư hỏng do rơi, vào nước, tự ý can thiệp phần cứng"
+    },
+    "vector_id": "vec_MON-27-FHD-21",
+    "description": "TechView WebCam 27\" FHD (TechView) - Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS. Resolution: 1920x1080 Full HD. Ideal for: Họp online."
+  },
+  {
+    "sku": "MON-16-OLED-22",
+    "name": "ProVision OLED Portable 16\"",
+    "brand": "ProVision",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "16 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16 inch"
+      },
+      "panel_type": {
+        "value": "OLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "OLED"
+      },
+      "resolution": {
+        "value": "3840x2400",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2400"
+      }
+    },
+    "use_cases": [
+      "travel",
+      "mobile_work",
+      "presentations"
+    ],
+    "skill_level": "professional",
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 18,
+      "coverage": "panel OLED, pin, mạch",
+      "exclusions": "burn-in sau 18 tháng, rơi vỡ, vào nước"
+    },
+    "vector_id": "vec_MON-16-OLED-22",
+    "description": "ProVision OLED Portable 16\" (ProVision) - Monitor. Specs: Screen Size: 16 inch. Panel Type: OLED. Resolution: 3840x2400. Ideal for: travel, mobile_work, presentations."
+  },
+  {
+    "sku": "MON-24-TOUCH-23",
+    "name": "TechView Touch 24\" FHD",
+    "brand": "TechView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "24 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "24 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "resolution": {
+        "value": "1920x1080",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage"
+    },
+    "vector_id": "vec_MON-24-TOUCH-23",
+    "description": "TechView Touch 24\" FHD (TechView) - Monitor. Specs: Screen Size: 24 inch. Panel Type: IPS. Resolution: 1920x1080. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-27-GAME-24",
+    "name": "ClearView Arena 27\" QHD",
+    "brand": "ClearView",
+    "category": "Gaming Monitor",
+    "specs": {},
+    "use_cases": [
+      "gaming"
+    ],
+    "skill_level": "beginner",
+    "environment": "gaming_setup",
+    "compatible_with": [],
     "warranty": {
       "duration_months": 24,
       "coverage": "Manufacturing defects",
-      "exclusions": "Physical damage, unauthorized modification"
+      "exclusions": "rơi vỡ, vào nước"
     },
-    "vector_id": "vec_005",
-    "description": "Studio-grade USB microphone built for streamers and podcasters. Features Clipguard technology to prevent audio distortion."
+    "vector_id": "vec_MON-27-GAME-24",
+    "description": "ClearView Arena 27\" QHD (ClearView) - Gaming Monitor. Ideal for: gaming."
   },
   {
-    "sku": "SKU006",
-    "name": "Shure SM7B Dynamic Vocal Microphone",
-    "brand": "Shure",
-    "category": "microphone",
+    "sku": "MON-32-CURVED-25",
+    "name": "SpeedX Horizon 32\" QHD Curved",
+    "brand": "SpeedX",
+    "category": "Monitor",
     "specs": {
-      "connection_type": {"value": "XLR", "unit": null, "confidence": "high"},
-      "polar_pattern": {"value": "Cardioid", "unit": null, "confidence": "high"},
-      "freq_response": {"value": "50Hz-20kHz", "unit": "HTZ", "confidence": "high"},
-      "phantom_power": {"value": false, "unit": null, "confidence": "high"}
+      "screen_size": {
+        "value": "32 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "32 inch"
+      },
+      "panel_type": {
+        "value": "VA",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "VA"
+      },
+      "refresh_rate": {
+        "value": "165Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "165Hz"
+      },
+      "resolution": {
+        "value": "2560x1440 QHD",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1440 QHD"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.0",
+          "1x DisplayPort 1.4",
+          "1x USB-C"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.0, 1x DisplayPort 1.4, 1x USB-C"
+      },
+      "power": {
+        "value": "45W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "45W"
+      }
     },
-    "use_cases": ["podcasting", "vocal_recording", "streaming"],
-    "skill_level": "pro",
-    "environment": "studio",
-    "compatible_with": ["SKU004"],
+    "use_cases": [
+      "gaming",
+      "streaming",
+      "esports"
+    ],
+    "skill_level": "intermediate",
+    "environment": "gaming_setup",
+    "compatible_with": [],
     "warranty": {
       "duration_months": 24,
-      "coverage": "Manufacturing defects and workmanship",
-      "exclusions": "Physical damage, moisture damage"
+      "coverage": [
+        "panel",
+        "đèn LED"
+      ],
+      "exclusions": "hư hỏng vật lý, vào chất lỏng"
     },
-    "vector_id": "vec_006",
-    "description": "The legendary broadcast-quality dynamic microphone used by top podcasters and musicians worldwide."
+    "vector_id": "vec_MON-32-CURVED-25",
+    "description": "SpeedX Horizon 32\" QHD Curved (SpeedX) - Monitor. Specs: Screen Size: 32 inch. Panel Type: VA. Refresh Rate: 165Hz. Resolution: 2560x1440 QHD. Ports: ['2x HDMI 2.0', '1x DisplayPort 1.4', '1x USB-C']. Power: 45W. Ideal for: gaming, streaming, esports."
+  },
+  {
+    "sku": "MON-27-NANO-26",
+    "name": "ProVision NanoEdge 27\" 4K",
+    "brand": "ProVision",
+    "category": "Slim Bezel Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "3840x2160 4K",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2160 4K"
+      },
+      "ports": {
+        "value": [
+          "1x HDMI 2.0",
+          "1x DisplayPort 1.4",
+          "1x USB-C PD 65W"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x HDMI 2.0, 1x DisplayPort 1.4, 1x USB-C PD 65W"
+      },
+      "power": {
+        "value": "35W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "35W"
+      }
+    },
+    "use_cases": [
+      "design_work",
+      "photo_editing",
+      "color_grading"
+    ],
+    "skill_level": "professional",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-DOCK-02",
+      "LAP-ASUS-14",
+      "LAP-MBA-13",
+      "LAP-MBA-15",
+      "LAP-MBP-14"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "toàn bộ phần cứng",
+      "exclusions": "rơi vỡ, vào nước, sửa chữa không uỷ quyền"
+    },
+    "vector_id": "vec_MON-27-NANO-26",
+    "description": "ProVision NanoEdge 27\" 4K (ProVision) - Slim Bezel Monitor. Specs: Screen Size: 27 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: 3840x2160 4K. Ports: ['1x HDMI 2.0', '1x DisplayPort 1.4', '1x USB-C PD 65W']. Power: 35W. Ideal for: design_work, photo_editing, color_grading."
+  },
+  {
+    "sku": "MON-24-PRO-27",
+    "name": "ClearView ProColor 24\" FHD",
+    "brand": "ClearView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "24 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "24 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "resolution": {
+        "value": "1920x1080 FHD",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080 FHD"
+      }
+    },
+    "use_cases": [
+      "general_purpose",
+      "office_work"
+    ],
+    "skill_level": "beginner",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage"
+    },
+    "vector_id": "vec_MON-24-PRO-27",
+    "description": "ClearView ProColor 24\" FHD (ClearView) - Monitor. Specs: Screen Size: 24 inch. Panel Type: IPS. Resolution: 1920x1080 FHD. Ideal for: general_purpose, office_work."
+  },
+  {
+    "sku": "MON-34-OLED-28",
+    "name": "ProVision OLED Wide 34\"",
+    "brand": "ProVision",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "34 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "34 inch"
+      },
+      "panel_type": {
+        "value": "WOLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "WOLED"
+      },
+      "refresh_rate": {
+        "value": "175Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "175Hz"
+      },
+      "resolution": {
+        "value": "3440x1440",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3440x1440"
+      },
+      "ports": {
+        "value": [
+          "2x HDMI 2.1",
+          "1x DisplayPort 2.0",
+          "1x USB-C PD 90W"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x HDMI 2.1, 1x DisplayPort 2.0, 1x USB-C PD 90W"
+      },
+      "power": {
+        "value": "55W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "55W"
+      }
+    },
+    "use_cases": [
+      "video_editing",
+      "multitasking",
+      "immersive_media"
+    ],
+    "skill_level": "professional",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "ACC-DOCK-01",
+      "LAP-DELL-16",
+      "LAP-MBP-16"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "panel OLED, tất cả linh kiện",
+      "exclusions": "hư hỏng do người dùng gây ra"
+    },
+    "vector_id": "vec_MON-34-OLED-28",
+    "description": "ProVision OLED Wide 34\" (ProVision) - Monitor. Specs: Screen Size: 34 inch. Panel Type: WOLED. Refresh Rate: 175Hz. Resolution: 3440x1440. Ports: ['2x HDMI 2.1', '1x DisplayPort 2.0', '1x USB-C PD 90W']. Power: 55W. Ideal for: video_editing, multitasking, immersive_media."
+  },
+  {
+    "sku": "MON-17-FHD-29",
+    "name": "TechView Field 17.3\" FHD",
+    "brand": "TechView",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "17.3 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "17.3 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "1920x1080",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1080"
+      },
+      "ports": {
+        "value": [
+          "4x SDI (1 in, 3 out)",
+          "1x HDMI 2.0",
+          "1x USB-C"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4x SDI (1 in, 3 out), 1x HDMI 2.0, 1x USB-C"
+      },
+      "power": {
+        "value": "18W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "18W"
+      }
+    },
+    "use_cases": [
+      "videography"
+    ],
+    "skill_level": "beginner",
+    "environment": "outdoor",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "toàn bộ trừ pin",
+      "exclusions": "rơi từ trên 1m, ngập nước, tự sửa"
+    },
+    "vector_id": "vec_MON-17-FHD-29",
+    "description": "TechView Field 17.3\" FHD (TechView) - Monitor. Specs: Screen Size: 17.3 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: 1920x1080. Ports: ['4x SDI (1 in, 3 out)', '1x HDMI 2.0', '1x USB-C']. Power: 18W. Ideal for: videography."
+  },
+  {
+    "sku": "LAP-MBP-14",
+    "name": "MacBook Pro 14 inch M4 Pro",
+    "brand": "Apple",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "14.2 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "14.2 inch"
+      },
+      "panel_type": {
+        "value": "Liquid Retina XDR",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Liquid Retina XDR"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "3024x1964",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3024x1964"
+      },
+      "ports": {
+        "value": [
+          "3x Thunderbolt 4",
+          "1x HDMI 2.1",
+          "1x MagSafe 3",
+          "1x khe SD card",
+          "1x jack 3.5mm"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3x Thunderbolt 4, 1x HDMI 2.1, 1x MagSafe 3, 1x khe SD card, 1x jack 3.5mm"
+      },
+      "power": {
+        "value": "70Wh",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "70Wh"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-CABLE-01",
+      "ACC-CHARGER-01",
+      "ACC-DOCK-01",
+      "MON-27-4K-01",
+      "MON-27-5K-11",
+      "MON-27-OLED-13",
+      "MON-32-4K-03",
+      "MON-34-UW-05"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi phần cứng do sản xuất",
+      "exclusions": "rơi vỡ, vào nước, phần mềm, phụ kiện"
+    },
+    "vector_id": "vec_LAP-MBP-14",
+    "description": "MacBook Pro 14 inch M4 Pro (Apple) - Laptop. Specs: Screen Size: 14.2 inch. Panel Type: Liquid Retina XDR. Refresh Rate: 120Hz. Resolution: 3024x1964. Ports: ['3x Thunderbolt 4', '1x HDMI 2.1', '1x MagSafe 3', '1x khe SD card', '1x jack 3.5mm']. Power: 70Wh. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-MBP-16",
+    "name": "MacBook Pro 16 inch M4 Max",
+    "brand": "Apple",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16.2 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16.2 inch"
+      },
+      "panel_type": {
+        "value": "Liquid Retina XDR",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Liquid Retina XDR"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "3456x2234",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3456x2234"
+      },
+      "ports": {
+        "value": [
+          "3x Thunderbolt 5",
+          "1x HDMI 2.1",
+          "1x MagSafe 3",
+          "1x khe SD card",
+          "1x jack 3.5mm"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3x Thunderbolt 5, 1x HDMI 2.1, 1x MagSafe 3, 1x khe SD card, 1x jack 3.5mm"
+      },
+      "power": {
+        "value": "100Wh",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "100Wh"
+      }
+    },
+    "use_cases": [
+      "photo_editing",
+      "video_editing",
+      "graphic_design"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-CABLE-01",
+      "ACC-CHARGER-01",
+      "ACC-DOCK-01",
+      "MON-27-4K-01",
+      "MON-27-5K-11",
+      "MON-32-4K-03",
+      "MON-34-OLED-28",
+      "MON-49-SUW-07"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi nhà sản xuất",
+      "exclusions": "rơi vỡ, vào nước (nếu không có AppleCare+), tự ý mở máy"
+    },
+    "vector_id": "vec_LAP-MBP-16",
+    "description": "MacBook Pro 16 inch M4 Max (Apple) - Laptop. Specs: Screen Size: 16.2 inch. Panel Type: Liquid Retina XDR. Refresh Rate: 120Hz. Resolution: 3456x2234. Ports: ['3x Thunderbolt 5', '1x HDMI 2.1', '1x MagSafe 3', '1x khe SD card', '1x jack 3.5mm']. Power: 100Wh. Ideal for: photo_editing, video_editing, graphic_design."
+  },
+  {
+    "sku": "LAP-MBA-13",
+    "name": "MacBook Air 13 inch M4",
+    "brand": "Apple",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "13.6 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "13.6 inch"
+      },
+      "resolution": {
+        "value": "2560x1664",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1664"
+      },
+      "power": {
+        "value": "30W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "sạc 30W"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-DOCK-02",
+      "MON-27-4K-01",
+      "MON-27-QHD-18"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi phần cứng sản xuất",
+      "exclusions": "rơi vỡ, vào nước, phần mềm"
+    },
+    "vector_id": "vec_LAP-MBA-13",
+    "description": "MacBook Air 13 inch M4 (Apple) - Laptop. Specs: Screen Size: 13.6 inch. Resolution: 2560x1664. Power: 30W. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-MBA-15",
+    "name": "MacBook Air 15 inch M4",
+    "brand": "Apple",
+    "category": "Monitor",
+    "specs": {
+      "screen_size": {
+        "value": "15.3 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "15.3 inch"
+      },
+      "panel_type": {
+        "value": "Liquid Retina",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Liquid Retina"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "2880x1864",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2880x1864"
+      },
+      "ports": {
+        "value": [
+          "2x Thunderbolt 4",
+          "1x MagSafe 3",
+          "1x jack 3.5mm"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x Thunderbolt 4, 1x MagSafe 3, 1x jack 3.5mm"
+      },
+      "power": {
+        "value": "35W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "35W"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-DOCK-02",
+      "MON-27-NANO-26",
+      "MON-27-QHD-18"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi phần cứng",
+      "exclusions": "hư hỏng vật lý, vào chất lỏng, phần mềm"
+    },
+    "vector_id": "vec_LAP-MBA-15",
+    "description": "MacBook Air 15 inch M4 (Apple) - Monitor. Specs: Screen Size: 15.3 inch. Panel Type: Liquid Retina. Refresh Rate: 60Hz. Resolution: 2880x1864. Ports: ['2x Thunderbolt 4', '1x MagSafe 3', '1x jack 3.5mm']. Power: 35W. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-DELL-14",
+    "name": "Dell XPS 14",
+    "brand": "Dell",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "14.5 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "14.5 inch"
+      },
+      "panel_type": {
+        "value": "OLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "OLED"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "3.2K 3200x2000",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3.2K 3200x2000"
+      },
+      "ports": {
+        "value": [
+          "2x Thunderbolt 4",
+          "1x USB-C 3.2",
+          "1x microSD"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x Thunderbolt 4, 1x USB-C 3.2, 1x microSD"
+      },
+      "power": {
+        "value": "69.5Wh",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "69.5Wh"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-CABLE-01",
+      "ACC-CHARGER-01",
+      "ACC-DOCK-01",
+      "MON-27-4K-01"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "phần cứng",
+      "exclusions": "rơi vỡ, vào nước, tự nâng cấp RAM"
+    },
+    "vector_id": "vec_LAP-DELL-14",
+    "description": "Dell XPS 14 (Dell) - Laptop. Specs: Screen Size: 14.5 inch. Panel Type: OLED. Refresh Rate: 120Hz. Resolution: 3.2K 3200x2000. Ports: ['2x Thunderbolt 4', '1x USB-C 3.2', '1x microSD']. Power: 69.5Wh. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-DELL-16",
+    "name": "Dell XPS 16",
+    "brand": "Dell",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16.3 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16.3 inch"
+      },
+      "panel_type": {
+        "value": "OLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "OLED"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "4K+ 3840x2400",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4K+ 3840x2400"
+      },
+      "ports": {
+        "value": [
+          "2x Thunderbolt 4",
+          "1x USB-C 3.2"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x Thunderbolt 4, 1x USB-C 3.2"
+      },
+      "power": {
+        "value": "130W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "130W"
+      }
+    },
+    "use_cases": [
+      "content creation"
+    ],
+    "skill_level": "intermediate",
+    "environment": "mobile",
+    "compatible_with": [
+      "MON-27-OLED-13",
+      "MON-34-OLED-28"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "toàn bộ phần cứng",
+      "exclusions": "rơi vỡ, vào chất lỏng, tự ý thay thế linh kiện"
+    },
+    "vector_id": "vec_LAP-DELL-16",
+    "description": "Dell XPS 16 (Dell) - Laptop. Specs: Screen Size: 16.3 inch. Panel Type: OLED. Refresh Rate: 120Hz. Resolution: 4K+ 3840x2400. Ports: ['2x Thunderbolt 4', '1x USB-C 3.2']. Power: 130W. Ideal for: content creation."
+  },
+  {
+    "sku": "LAP-THINK-14",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "brand": "Lenovo",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "14 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "14 inch"
+      },
+      "panel_type": {
+        "value": "OLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "OLED"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "2.8K 2880x1800",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2.8K OLED 2880x1800"
+      },
+      "ports": {
+        "value": [
+          "2x Thunderbolt 4",
+          "2x USB-A 3.2",
+          "1x HDMI 2.1"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x Thunderbolt 4, 2x USB-A 3.2, 1x HDMI 2.1"
+      },
+      "power": {
+        "value": "57Wh",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "57Wh"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-DOCK-01",
+      "MON-34-UW-05"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "toàn bộ phần cứng, hỗ trợ phần mềm cơ bản",
+      "exclusions": "rơi vỡ ngoài phạm vi MIL-STD, vào nước"
+    },
+    "vector_id": "vec_LAP-THINK-14",
+    "description": "Lenovo ThinkPad X1 Carbon Gen 12 (Lenovo) - Laptop. Specs: Screen Size: 14 inch. Panel Type: OLED. Refresh Rate: 120Hz. Resolution: 2.8K 2880x1800. Ports: ['2x Thunderbolt 4', '2x USB-A 3.2', '1x HDMI 2.1']. Power: 57Wh. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-THINK-16",
+    "name": "Lenovo ThinkPad T16 Gen 3",
+    "brand": "Lenovo",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "1920x1200",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1920x1200"
+      },
+      "ports": {
+        "value": [
+          "1x Thunderbolt 4",
+          "1x USB-C 3.2",
+          "2x USB-A 3.2",
+          "1x HDMI 2.0",
+          "1x RJ45",
+          "1x headphone"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x Thunderbolt 4, 1x USB-C 3.2, 2x USB-A 3.2, 1x HDMI 2.0, 1x RJ45, 1x headphone"
+      },
+      "power": {
+        "value": "45W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "45W"
+      }
+    },
+    "use_cases": [
+      "office_work"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "phần cứng",
+      "exclusions": "rơi vỡ, vào nước, tự nâng cấp không đúng cách"
+    },
+    "vector_id": "vec_LAP-THINK-16",
+    "description": "Lenovo ThinkPad T16 Gen 3 (Lenovo) - Laptop. Specs: Screen Size: 16 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: 1920x1200. Ports: ['1x Thunderbolt 4', '1x USB-C 3.2', '2x USB-A 3.2', '1x HDMI 2.0', '1x RJ45', '1x headphone']. Power: 45W. Ideal for: office_work."
+  },
+  {
+    "sku": "LAP-ASUS-14",
+    "name": "ASUS ZenBook 14 OLED",
+    "brand": "ASUS",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "14 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "14 inch"
+      },
+      "panel_type": {
+        "value": "OLED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "OLED"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "2.8K 2880x1800",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2.8K OLED 2880x1800"
+      },
+      "ports": {
+        "value": [
+          "1x Thunderbolt 4",
+          "1x USB-C 3.2",
+          "1x USB-A 3.2",
+          "1x HDMI 2.1",
+          "1x microSD"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x Thunderbolt 4, 1x USB-C 3.2, 1x USB-A 3.2, 1x HDMI 2.1, 1x microSD"
+      },
+      "power": {
+        "value": "sạc 65W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "sạc 65W"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "MON-27-NANO-26"
+    ],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "lỗi phần cứng, bảo hành OLED burn-in 1 năm",
+      "exclusions": "rơi vỡ, vào nước, tự tháo máy"
+    },
+    "vector_id": "vec_LAP-ASUS-14",
+    "description": "ASUS ZenBook 14 OLED (ASUS) - Laptop. Specs: Screen Size: 14 inch. Panel Type: OLED. Refresh Rate: 120Hz. Resolution: 2.8K 2880x1800. Ports: ['1x Thunderbolt 4', '1x USB-C 3.2', '1x USB-A 3.2', '1x HDMI 2.1', '1x microSD']. Power: sạc 65W. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-ASUS-16",
+    "name": "ASUS ROG Zephyrus G16",
+    "brand": "ASUS",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16 inch"
+      },
+      "panel_type": {
+        "value": "Mini LED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Mini LED"
+      },
+      "refresh_rate": {
+        "value": "240Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "240Hz"
+      },
+      "resolution": {
+        "value": "2560x1600",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1600"
+      },
+      "ports": {
+        "value": [
+          "1x Thunderbolt 4",
+          "1x USB-C 3.2",
+          "2x USB-A 3.2",
+          "1x HDMI 2.1",
+          "1x SD card"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x Thunderbolt 4, 1x USB-C 3.2, 2x USB-A 3.2, 1x HDMI 2.1, 1x SD card"
+      },
+      "power": {
+        "value": "200W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "sạc 200W"
+      }
+    },
+    "use_cases": [
+      "gaming"
+    ],
+    "skill_level": "all_levels",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "phần cứng bao gồm GPU",
+      "exclusions": "rơi vỡ, vào nước, hư hỏng do quá nhiệt khi OC"
+    },
+    "vector_id": "vec_LAP-ASUS-16",
+    "description": "ASUS ROG Zephyrus G16 (ASUS) - Laptop. Specs: Screen Size: 16 inch. Panel Type: Mini LED. Refresh Rate: 240Hz. Resolution: 2560x1600. Ports: ['1x Thunderbolt 4', '1x USB-C 3.2', '2x USB-A 3.2', '1x HDMI 2.1', '1x SD card']. Power: 200W. Ideal for: gaming."
+  },
+  {
+    "sku": "LAP-HP-14",
+    "name": "HP Spectre x360 14",
+    "brand": "HP",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "14 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "14 inch"
+      },
+      "resolution": {
+        "value": "2.8K",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2.8K"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "rơi vỡ, vào nước, bút stylus bị mất"
+    },
+    "vector_id": "vec_LAP-HP-14",
+    "description": "HP Spectre x360 14 (HP) - Laptop. Specs: Screen Size: 14 inch. Resolution: 2.8K. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-HP-16",
+    "name": "HP ZBook Studio 16 G11",
+    "brand": "HP",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "3840x2400",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "3840x2400"
+      },
+      "ports": {
+        "value": [
+          "2x Thunderbolt 4",
+          "1x USB-A 3.2",
+          "1x HDMI 2.1",
+          "1x SD card"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x Thunderbolt 4, 1x USB-A 3.2, 1x HDMI 2.1, 1x SD card"
+      },
+      "power": {
+        "value": "200W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "200W"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "MON-32-4K-03",
+      "MON-49-SUW-07"
+    ],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "toàn bộ phần cứng, hỗ trợ on-site ngày hôm sau",
+      "exclusions": "rơi vỡ, vào chất lỏng, tự nâng cấp"
+    },
+    "vector_id": "vec_LAP-HP-16",
+    "description": "HP ZBook Studio 16 G11 (HP) - Laptop. Specs: Screen Size: 16 inch. Panel Type: IPS. Refresh Rate: 120Hz. Resolution: 3840x2400. Ports: ['2x Thunderbolt 4', '1x USB-A 3.2', '1x HDMI 2.1', '1x SD card']. Power: 200W. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-SURFACE-14",
+    "name": "Microsoft Surface Laptop 7",
+    "brand": "Microsoft",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "13.8 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "13.8 inch"
+      },
+      "panel_type": {
+        "value": "PixelSense Flow",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "PixelSense Flow"
+      },
+      "refresh_rate": {
+        "value": "120Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz"
+      },
+      "resolution": {
+        "value": "2304x1536",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2304x1536"
+      },
+      "ports": {
+        "value": [
+          "2x USB-C 4.0",
+          "1x USB-A 3.1",
+          "1x Surface Connect"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x USB-C 4.0, 1x USB-A 3.1, 1x Surface Connect"
+      },
+      "power": {
+        "value": "54Wh",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "54Wh"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [
+      "ACC-DOCK-02"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi nhà sản xuất",
+      "exclusions": "rơi vỡ (nếu không có Complete), vào nước"
+    },
+    "vector_id": "vec_LAP-SURFACE-14",
+    "description": "Microsoft Surface Laptop 7 (Microsoft) - Laptop. Specs: Screen Size: 13.8 inch. Panel Type: PixelSense Flow. Refresh Rate: 120Hz. Resolution: 2304x1536. Ports: ['2x USB-C 4.0', '1x USB-A 3.1', '1x Surface Connect']. Power: 54Wh. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-SURFACE-15",
+    "name": "Microsoft Surface Laptop Studio 3",
+    "brand": "Microsoft",
+    "category": "Laptop",
+    "specs": {},
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "phần cứng",
+      "exclusions": "rơi vỡ, vào nước, mất bút stylus, hư hỏng do sử dụng charger không chính hãng"
+    },
+    "vector_id": "vec_LAP-SURFACE-15",
+    "description": "Microsoft Surface Laptop Studio 3 (Microsoft) - Laptop. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-LG-16",
+    "name": "LG Gram 16 Pro",
+    "brand": "LG",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16 inch"
+      },
+      "panel_type": {
+        "value": "IPS",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "IPS"
+      },
+      "refresh_rate": {
+        "value": "60Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "60Hz"
+      },
+      "resolution": {
+        "value": "2560x1600",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1600"
+      },
+      "ports": {
+        "value": [
+          "2x Thunderbolt 4",
+          "1x USB-A 3.2",
+          "1x HDMI 2.0",
+          "1x microSD"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x Thunderbolt 4, 1x USB-A 3.2, 1x HDMI 2.0, 1x microSD"
+      },
+      "power": {
+        "value": "65W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "65W"
+      }
+    },
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi phần cứng",
+      "exclusions": "rơi vỡ, vào nước, tự ý tháo máy"
+    },
+    "vector_id": "vec_LAP-LG-16",
+    "description": "LG Gram 16 Pro (LG) - Laptop. Specs: Screen Size: 16 inch. Panel Type: IPS. Refresh Rate: 60Hz. Resolution: 2560x1600. Ports: ['2x Thunderbolt 4', '1x USB-A 3.2', '1x HDMI 2.0', '1x microSD']. Power: 65W. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-ACER-15",
+    "name": "Acer Predator Helios 16",
+    "brand": "Acer",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "16 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "16 inch"
+      },
+      "panel_type": {
+        "value": "Mini LED",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Mini LED"
+      },
+      "refresh_rate": {
+        "value": "250Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "250Hz"
+      },
+      "resolution": {
+        "value": "2560x1600",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2560x1600"
+      },
+      "ports": {
+        "value": [
+          "1x Thunderbolt 4",
+          "1x USB-C 3.2",
+          "3x USB-A 3.2",
+          "1x HDMI 2.1",
+          "1x Ethernet 2.5Gbps",
+          "1x SD card"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x Thunderbolt 4, 1x USB-C 3.2, 3x USB-A 3.2, 1x HDMI 2.1, 1x Ethernet 2.5Gbps, 1x SD card"
+      },
+      "power": {
+        "value": "330W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "330W"
+      }
+    },
+    "use_cases": [
+      "gaming"
+    ],
+    "skill_level": "all_levels",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "phần cứng",
+      "exclusions": "rơi vỡ, vào nước, quá nhiệt do OC"
+    },
+    "vector_id": "vec_LAP-ACER-15",
+    "description": "Acer Predator Helios 16 (Acer) - Laptop. Specs: Screen Size: 16 inch. Panel Type: Mini LED. Refresh Rate: 250Hz. Resolution: 2560x1600. Ports: ['1x Thunderbolt 4', '1x USB-C 3.2', '3x USB-A 3.2', '1x HDMI 2.1', '1x Ethernet 2.5Gbps', '1x SD card']. Power: 330W. Ideal for: gaming."
+  },
+  {
+    "sku": "LAP-ACER-14",
+    "name": "Acer Swift Go 14 AI",
+    "brand": "Acer",
+    "category": "Laptop",
+    "specs": {},
+    "use_cases": [
+      "mobile_computing",
+      "development"
+    ],
+    "skill_level": "all_levels",
+    "environment": "mobile",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi nhà sản xuất",
+      "exclusions": "rơi vỡ, vào nước"
+    },
+    "vector_id": "vec_LAP-ACER-14",
+    "description": "Acer Swift Go 14 AI (Acer) - Laptop. Ideal for: mobile_computing, development."
+  },
+  {
+    "sku": "LAP-RAZER-14",
+    "name": "Razer Blade 14",
+    "brand": "Razer",
+    "category": "Laptop",
+    "specs": {
+      "screen_size": {
+        "value": "14 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "14 inch"
+      },
+      "refresh_rate": {
+        "value": "240Hz",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "240Hz"
+      },
+      "resolution": {
+        "value": "QHD+ 2560x1600",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "QHD+ 2560x1600"
+      },
+      "ports": {
+        "value": [
+          "2x USB-C 4.0",
+          "2x USB-A 3.2",
+          "1x HDMI 2.1",
+          "1x SD card"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "2x USB-C 4.0, 2x USB-A 3.2, 1x HDMI 2.1, 1x SD card"
+      },
+      "power": {
+        "value": "230W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "sạc 230W"
+      }
+    },
+    "use_cases": [
+      "gaming"
+    ],
+    "skill_level": "intermediate",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi phần cứng",
+      "exclusions": "rơi vỡ, vào nước, tự nâng cấp"
+    },
+    "vector_id": "vec_LAP-RAZER-14",
+    "description": "Razer Blade 14 (Razer) - Laptop. Specs: Screen Size: 14 inch. Refresh Rate: 240Hz. Resolution: QHD+ 2560x1600. Ports: ['2x USB-C 4.0', '2x USB-A 3.2', '1x HDMI 2.1', '1x SD card']. Power: 230W. Ideal for: gaming."
+  },
+  {
+    "sku": "ACC-DOCK-01",
+    "name": "ProVision ThunderDock Pro",
+    "brand": "ProVision",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": "Thunderbolt 4",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Thunderbolt 4"
+      },
+      "ports": {
+        "value": [
+          "1x Thunderbolt 4 upstream (PD 96W)",
+          "1x Thunderbolt 4 downstream",
+          "3x USB-A 3.2",
+          "1x USB-C 3.2 front",
+          "1x HDMI 2.1",
+          "1x DisplayPort 1.4",
+          "1x RJ45 2.5Gbps",
+          "1x SD card",
+          "1x audio combo"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x Thunderbolt 4 upstream (PD 96W), 1x Thunderbolt 4 downstream, 3x USB-A 3.2, 1x USB-C 3.2 front, 1x HDMI 2.1, 1x DisplayPort 1.4, 1x RJ45 2.5Gbps, 1x SD card, 1x audio combo"
+      },
+      "power": {
+        "value": "180W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "180W"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-DELL-14",
+      "LAP-MBP-14",
+      "LAP-MBP-16",
+      "LAP-THINK-14",
+      "MON-27-4K-01",
+      "MON-27-5K-11",
+      "MON-32-4K-03",
+      "MON-34-OLED-28",
+      "MON-34-UW-05",
+      "MON-49-SUW-07"
+    ],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "phần cứng",
+      "exclusions": "cháy do sét, hư cổng do cắm sai, tự tháo"
+    },
+    "vector_id": "vec_ACC-DOCK-01",
+    "description": "ProVision ThunderDock Pro (ProVision) - Accessory. Specs: Connection Type: Thunderbolt 4. Ports: ['1x Thunderbolt 4 upstream (PD 96W)', '1x Thunderbolt 4 downstream', '3x USB-A 3.2', '1x USB-C 3.2 front', '1x HDMI 2.1', '1x DisplayPort 1.4', '1x RJ45 2.5Gbps', '1x SD card', '1x audio combo']. Power: 180W. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-DOCK-02",
+    "name": "TechView USB-C Hub 7-in-1",
+    "brand": "TechView",
+    "category": "Accessory",
+    "specs": {
+      "ports": {
+        "value": [
+          "1x USB-C PD 100W passthrough",
+          "2x USB-A 3.0",
+          "1x HDMI 4K@30Hz",
+          "1x SD card",
+          "1x microSD",
+          "1x RJ45 Gigabit"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "1x USB-C PD 100W passthrough, 2x USB-A 3.0, 1x HDMI 4K@30Hz, 1x SD card, 1x microSD, 1x RJ45 Gigabit"
+      },
+      "power": {
+        "value": "5W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "5W"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-MBA-13",
+      "LAP-MBA-15",
+      "LAP-SURFACE-14",
+      "MON-27-NANO-26",
+      "MON-27-QHD-18"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi nhà sản xuất",
+      "exclusions": "hư cổng do cắm rút mạnh, rơi vỡ"
+    },
+    "vector_id": "vec_ACC-DOCK-02",
+    "description": "TechView USB-C Hub 7-in-1 (TechView) - Accessory. Specs: Ports: ['1x USB-C PD 100W passthrough', '2x USB-A 3.0', '1x HDMI 4K@30Hz', '1x SD card', '1x microSD', '1x RJ45 Gigabit']. Power: 5W. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-STAND-01",
+    "name": "ProVision Monitor Arm Dual",
+    "brand": "ProVision",
+    "category": "Accessory",
+    "specs": {
+      "screen_size": {
+        "value": "17\" đến 32\"",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "17\" đến 32\""
+      },
+      "power": {
+        "value": "tải trọng mỗi cánh tay tối đa 9kg",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "tải trọng mỗi cánh tay tối đa 9kg"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "MON-27-4K-01",
+      "MON-27-OLED-13",
+      "MON-27-QHD-02",
+      "MON-32-4K-03"
+    ],
+    "warranty": {
+      "duration_months": 60,
+      "coverage": "cơ cấu cơ khí, piston khí",
+      "exclusions": "quá tải, rơi vỡ"
+    },
+    "vector_id": "vec_ACC-STAND-01",
+    "description": "ProVision Monitor Arm Dual (ProVision) - Accessory. Specs: Screen Size: 17\" đến 32\". Power: tải trọng mỗi cánh tay tối đa 9kg. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-STAND-02",
+    "name": "TechView Laptop Stand Adjustable",
+    "brand": "TechView",
+    "category": "Accessory",
+    "specs": {
+      "screen_size": {
+        "value": "10\" đến 17\"",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "10\" đến 17\""
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi cơ khí",
+      "exclusions": "gãy do quá tải, trầy xước thẩm mỹ"
+    },
+    "vector_id": "vec_ACC-STAND-02",
+    "description": "TechView Laptop Stand Adjustable (TechView) - Accessory. Specs: Screen Size: 10\" đến 17\". Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-CABLE-01",
+    "name": "ProVision USB-C to USB-C Cable 2m",
+    "brand": "ProVision",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": "USB-C to USB-C",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C to USB-C"
+      },
+      "power": {
+        "value": "PD 240W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "PD 240W"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-DELL-14",
+      "LAP-MBP-14",
+      "LAP-MBP-16",
+      "MON-27-4K-01"
+    ],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "lỗi sản xuất",
+      "exclusions": "gập gãy, kéo mạnh đứt dây, cắn nát"
+    },
+    "vector_id": "vec_ACC-CABLE-01",
+    "description": "ProVision USB-C to USB-C Cable 2m (ProVision) - Accessory. Specs: Connection Type: USB-C to USB-C. Power: PD 240W. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-CABLE-02",
+    "name": "TechView HDMI 2.1 Cable 3m",
+    "brand": "TechView",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": "HDMI 2.1",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "HDMI 2.1"
+      },
+      "resolution": {
+        "value": [
+          "4K@120Hz",
+          "8K@60Hz"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4K@120Hz, 8K@60Hz"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi sản xuất",
+      "exclusions": "gập gãy, kéo đứt"
+    },
+    "vector_id": "vec_ACC-CABLE-02",
+    "description": "TechView HDMI 2.1 Cable 3m (TechView) - Accessory. Specs: Connection Type: HDMI 2.1. Resolution: ['4K@120Hz', '8K@60Hz']. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-CHARGER-01",
+    "name": "ProVision GaN Charger 140W",
+    "brand": "ProVision",
+    "category": "Accessory",
+    "specs": {
+      "power": {
+        "value": "140W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "140W"
+      }
+    },
+    "use_cases": [
+      "Charging"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "LAP-DELL-14",
+      "LAP-MBP-14",
+      "LAP-MBP-16"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "cháy nổ do dùng ổ điện không ổn định, rơi vỡ, tự tháo"
+    },
+    "vector_id": "vec_ACC-CHARGER-01",
+    "description": "ProVision GaN Charger 140W (ProVision) - Accessory. Specs: Power: 140W. Ideal for: Charging."
+  },
+  {
+    "sku": "ACC-KVM-01",
+    "name": "ProVision KVM Switch 4K Dual",
+    "brand": "ProVision",
+    "category": "Accessory",
+    "specs": {
+      "ports": {
+        "value": [
+          "4x HDMI 2.0 (2 in x 2 out)",
+          "4x USB 3.0",
+          "1x audio"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4x HDMI 2.0 (2 in x 2 out), 4x USB 3.0 chia sẻ, 1x audio"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "phần cứng, adapter đi kèm",
+      "exclusions": "cháy do sét, hư cổng do cắm sai"
+    },
+    "vector_id": "vec_ACC-KVM-01",
+    "description": "ProVision KVM Switch 4K Dual (ProVision) - Accessory. Specs: Ports: ['4x HDMI 2.0 (2 in x 2 out)', '4x USB 3.0', '1x audio']. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-WEBCAM-01",
+    "name": "ClearView StreamCam 4K",
+    "brand": "ClearView",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": "USB-C",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C"
+      },
+      "resolution": {
+        "value": [
+          "4K",
+          "1080p"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4K@30fps hoặc 1080p@60fps"
+      }
+    },
+    "use_cases": [
+      "streaming và họp online"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 18,
+      "coverage": "cảm biến, mic, mạch",
+      "exclusions": "rơi vỡ, vào nước, trầy xước ống kính"
+    },
+    "vector_id": "vec_ACC-WEBCAM-01",
+    "description": "ClearView StreamCam 4K (ClearView) - Accessory. Specs: Connection Type: USB-C. Resolution: ['4K', '1080p']. Ideal for: streaming và họp online."
+  },
+  {
+    "sku": "ACC-MOUSE-01",
+    "name": "SpeedX ProAim Wireless",
+    "brand": "SpeedX",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": [
+          "wireless 2.4GHz",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "wireless 2.4GHz (polling rate 4000Hz), Bluetooth 5.3, USB-C"
+      },
+      "ports": {
+        "value": "USB-C",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C"
+      },
+      "power": {
+        "value": "Pin sạc, dùng được 100 giờ",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Pin sạc, dùng được 100 giờ"
+      }
+    },
+    "use_cases": [
+      "gaming"
+    ],
+    "skill_level": "all_levels",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "switch, cảm biến, pin",
+      "exclusions": "rơi vỡ, đổ nước, tự thay switch"
+    },
+    "vector_id": "vec_ACC-MOUSE-01",
+    "description": "SpeedX ProAim Wireless (SpeedX) - Accessory. Specs: Connection Type: ['wireless 2.4GHz', 'Bluetooth 5.3', 'USB-C']. Ports: USB-C. Power: Pin sạc, dùng được 100 giờ. Ideal for: gaming."
+  },
+  {
+    "sku": "ACC-KB-01",
+    "name": "SpeedX MechForce TKL",
+    "brand": "SpeedX",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": [
+          "wireless 2.4GHz",
+          "Bluetooth 5.3",
+          "USB-C"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "wireless 2.4GHz, Bluetooth 5.3, USB-C"
+      },
+      "ports": {
+        "value": [
+          "USB-C"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C"
+      },
+      "power": {
+        "value": "4000mAh",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4000mAh"
+      }
+    },
+    "use_cases": [
+      "gaming",
+      "streaming",
+      "esports"
+    ],
+    "skill_level": "all_levels",
+    "environment": "gaming_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": [
+        "PCB",
+        "switch (đi kèm)",
+        "pin"
+      ],
+      "exclusions": "đổ nước, tự mod switch gây chập, keycap phai màu do nắng"
+    },
+    "vector_id": "vec_ACC-KB-01",
+    "description": "SpeedX MechForce TKL (SpeedX) - Accessory. Specs: Connection Type: ['wireless 2.4GHz', 'Bluetooth 5.3', 'USB-C']. Ports: ['USB-C']. Power: 4000mAh. Ideal for: gaming, streaming, esports."
+  },
+  {
+    "sku": "ACC-HEADSET-01",
+    "name": "ClearView SonicPro ANC",
+    "brand": "ClearView",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": [
+          "Bluetooth 5.4",
+          "3.5mm"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Bluetooth 5.4 + 3.5mm"
+      },
+      "power": {
+        "value": "60 giờ (ANC tắt), 40 giờ (ANC bật)",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "Pin 60 giờ (ANC tắt), 40 giờ (ANC bật)"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 18,
+      "coverage": [
+        "driver",
+        "ANC",
+        "pin"
+      ],
+      "exclusions": "rơi vỡ, vào nước, tự sửa"
+    },
+    "vector_id": "vec_ACC-HEADSET-01",
+    "description": "ClearView SonicPro ANC (ClearView) - Accessory. Specs: Connection Type: ['Bluetooth 5.4', '3.5mm']. Power: 60 giờ (ANC tắt), 40 giờ (ANC bật). Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-MAT-01",
+    "name": "SpeedX GlideZone XXL",
+    "brand": "SpeedX",
+    "category": "Accessory",
+    "specs": {
+      "screen_size": {
+        "value": "900x400x4mm",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "900x400x4mm"
+      },
+      "ports": {
+        "value": "USB-C",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [],
+    "warranty": {
+      "duration_months": 6,
+      "coverage": "lỗi sản xuất, LED (nếu có)",
+      "exclusions": "bẩn do sử dụng, rách do cắt, phai màu"
+    },
+    "vector_id": "vec_ACC-MAT-01",
+    "description": "SpeedX GlideZone XXL (SpeedX) - Accessory. Specs: Screen Size: 900x400x4mm. Ports: USB-C. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-ADAPTER-01",
+    "name": "TechView USB-C to DisplayPort Adapter",
+    "brand": "TechView",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": "USB-C sang DisplayPort 1.4",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C sang DisplayPort 1.4"
+      },
+      "refresh_rate": {
+        "value": [
+          "120Hz",
+          "30Hz"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "120Hz, 8K@30Hz"
+      },
+      "resolution": {
+        "value": [
+          "4K",
+          "8K"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "4K@120Hz, 8K@30Hz"
+      },
+      "ports": {
+        "value": [
+          "USB-C",
+          "DisplayPort 1.4",
+          "Thunderbolt 3/4"
+        ],
+        "unit": null,
+        "confidence": "high",
+        "source_span": "USB-C sang DisplayPort 1.4. Hỗ trợ 4K@120Hz, 8K@30Hz. Tương thích Thunderbolt 3/4."
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "intermediate",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "MON-27-4K-01",
+      "MON-32-4K-03"
+    ],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "lỗi sản xuất",
+      "exclusions": "gãy đầu cắm, kéo đứt dây"
+    },
+    "vector_id": "vec_ACC-ADAPTER-01",
+    "description": "TechView USB-C to DisplayPort Adapter (TechView) - Accessory. Specs: Connection Type: USB-C sang DisplayPort 1.4. Refresh Rate: ['120Hz', '30Hz']. Resolution: ['4K', '8K']. Ports: ['USB-C', 'DisplayPort 1.4', 'Thunderbolt 3/4']. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-LIGHT-01",
+    "name": "ClearView ScreenBar Pro",
+    "brand": "ClearView",
+    "category": "Accessory",
+    "specs": {
+      "connection_type": {
+        "value": "không dây",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "không dây"
+      },
+      "power": {
+        "value": "5W",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "5W"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "MON-27-4K-01",
+      "MON-32-4K-03"
+    ],
+    "warranty": {
+      "duration_months": 18,
+      "coverage": "LED, cảm biến, mạch",
+      "exclusions": "rơi vỡ, vào nước, hư kẹp do mở quá rộng"
+    },
+    "vector_id": "vec_ACC-LIGHT-01",
+    "description": "ClearView ScreenBar Pro (ClearView) - Accessory. Specs: Connection Type: không dây. Power: 5W. Ideal for: accessory, ergonomics."
+  },
+  {
+    "sku": "ACC-PRIVACY-01",
+    "name": "TechView Privacy Screen 27\"",
+    "brand": "TechView",
+    "category": "Accessory",
+    "specs": {
+      "screen_size": {
+        "value": "27 inch",
+        "unit": null,
+        "confidence": "high",
+        "source_span": "27 inch"
+      }
+    },
+    "use_cases": [
+      "accessory",
+      "ergonomics"
+    ],
+    "skill_level": "all_levels",
+    "environment": "desk_setup",
+    "compatible_with": [
+      "MON-27-4K-01"
+    ],
+    "warranty": {
+      "duration_months": 6,
+      "coverage": "lỗi lớp film",
+      "exclusions": "trầy xước do sử dụng, gãy do bẻ"
+    },
+    "vector_id": "vec_ACC-PRIVACY-01",
+    "description": "TechView Privacy Screen 27\" (TechView) - Accessory. Specs: Screen Size: 27 inch. Ideal for: accessory, ergonomics."
   }
 ]
