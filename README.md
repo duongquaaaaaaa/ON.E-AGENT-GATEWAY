@@ -271,8 +271,9 @@ ON.E-AGENT-GATEWAY/
 │   └── sample_agent.py         # Test harness — 6-step demo
 │
 ├── generate_module3_data.py    # Bridges Module 1 → Module 3 data
-├── ONE_Agent_Gateway_Project_Requirements.md
-└── README.md                   # This file
+├── TESTING_GUIDE_BGK.md        # Quick test guide for Hackathon judges (2-min test)
+├── ROUND2_SUBMISSION.md        # Round 2 deliverables & 100-point rubric mapping
+└── README.md                   # System architecture & documentation
 ```
 
 ---
