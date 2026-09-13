@@ -1,0 +1,44 @@
+{
+  "SKU001": {
+    "sku": "SKU001",
+    "price": 129.00,
+    "currency": "USD",
+    "stock": 42,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "SKU002": {
+    "sku": "SKU002",
+    "price": 99.00,
+    "currency": "USD",
+    "stock": 28,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "SKU003": {
+    "sku": "SKU003",
+    "price": 149.00,
+    "currency": "USD",
+    "stock": 15,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "SKU004": {
+    "sku": "SKU004",
+    "price": 119.00,
+    "currency": "USD",
+    "stock": 33,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "SKU005": {
+    "sku": "SKU005",
+    "price": 149.99,
+    "currency": "USD",
+    "stock": 20,
+    "updated_at": "2026-09-13T00:00:00Z"
+  },
+  "SKU006": {
+    "sku": "SKU006",
+    "price": 399.00,
+    "currency": "USD",
+    "stock": 8,
+    "updated_at": "2026-09-13T00:00:00Z"
+  }
+}

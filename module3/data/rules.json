@@ -1,0 +1,59 @@
+{
+  "rules": [
+    {
+      "id": "rule_001",
+      "name": "Mic + Boom Arm Bundle",
+      "description": "Discount when microphone is purchased with a boom arm",
+      "trigger_skus": ["SKU001", "SKU002"],
+      "trigger_categories": null,
+      "discount_percent": 15,
+      "price_floor": 180.00,
+      "currency": "USD",
+      "active": true
+    },
+    {
+      "id": "rule_002",
+      "name": "Elgato Mic + Boom Arm Bundle",
+      "description": "Discount when Elgato mic purchased with boom arm",
+      "trigger_skus": ["SKU005", "SKU002"],
+      "trigger_categories": null,
+      "discount_percent": 12,
+      "price_floor": 210.00,
+      "currency": "USD",
+      "active": true
+    },
+    {
+      "id": "rule_003",
+      "name": "Pro Studio Bundle",
+      "description": "Shure SM7B + Focusrite combo for pro setup",
+      "trigger_skus": ["SKU006", "SKU004"],
+      "trigger_categories": null,
+      "discount_percent": 10,
+      "price_floor": 460.00,
+      "currency": "USD",
+      "active": true
+    },
+    {
+      "id": "rule_004",
+      "name": "Full Podcasting Starter Bundle",
+      "description": "Mic + boom arm + headphones starter kit",
+      "trigger_skus": ["SKU001", "SKU002", "SKU003"],
+      "trigger_categories": null,
+      "discount_percent": 18,
+      "price_floor": 300.00,
+      "currency": "USD",
+      "active": true
+    },
+    {
+      "id": "rule_005",
+      "name": "Category: Mic + Interface",
+      "description": "Any mic purchased with an audio interface",
+      "trigger_skus": null,
+      "trigger_categories": ["microphone", "audio_interface"],
+      "discount_percent": 8,
+      "price_floor": 200.00,
+      "currency": "USD",
+      "active": true
+    }
+  ]
+}

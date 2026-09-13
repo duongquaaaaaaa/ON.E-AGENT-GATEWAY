@@ -1,0 +1,2 @@
+# Audit logs are written here at runtime by middleware.py
+# This file keeps the directory tracked by git.

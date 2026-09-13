@@ -1,0 +1,138 @@
+[
+  {
+    "sku": "SKU001",
+    "name": "Blue Yeti USB Microphone",
+    "brand": "Blue",
+    "category": "microphone",
+    "specs": {
+      "connection_type": {"value": "USB", "unit": null, "confidence": "high"},
+      "polar_pattern": {"value": "Cardioid, Bidirectional, Omnidirectional, Stereo", "unit": null, "confidence": "high"},
+      "freq_response": {"value": "20Hz-20kHz", "unit": "HTZ", "confidence": "high"},
+      "phantom_power": {"value": false, "unit": null, "confidence": "high"},
+      "sample_rate": {"value": "48kHz/16-bit", "unit": "KHZ", "confidence": "high"}
+    },
+    "use_cases": ["podcasting", "streaming", "vocal_recording", "video_calls"],
+    "skill_level": "beginner",
+    "environment": "home_untreated",
+    "compatible_with": ["SKU002", "SKU004"],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage, liquid damage"
+    },
+    "vector_id": "vec_001",
+    "description": "The Blue Yeti is a premium USB microphone perfect for beginners and professionals alike. Features four polar patterns for versatile recording."
+  },
+  {
+    "sku": "SKU002",
+    "name": "Rode PSA1 Swivel Mount Studio Microphone Boom Arm",
+    "brand": "Rode",
+    "category": "microphone_accessory",
+    "specs": {
+      "connection_type": {"value": "Desk clamp", "unit": null, "confidence": "high"},
+      "power": {"value": null, "unit": null, "confidence": "high"}
+    },
+    "use_cases": ["podcasting", "streaming", "vocal_recording"],
+    "skill_level": "beginner",
+    "environment": "home_untreated",
+    "compatible_with": ["SKU001", "SKU003"],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage"
+    },
+    "vector_id": "vec_002",
+    "description": "Professional studio arm with smooth 360-degree rotation. Perfect companion for tabletop microphones."
+  },
+  {
+    "sku": "SKU003",
+    "name": "Audio-Technica ATH-M50x Professional Monitor Headphones",
+    "brand": "Audio-Technica",
+    "category": "headphones",
+    "specs": {
+      "connection_type": {"value": "3.5mm TRS", "unit": null, "confidence": "high"},
+      "freq_response": {"value": "15Hz-28kHz", "unit": "HTZ", "confidence": "high"},
+      "power": {"value": null, "unit": null, "confidence": "high"}
+    },
+    "use_cases": ["podcasting", "streaming", "vocal_recording", "gaming"],
+    "skill_level": "intermediate",
+    "environment": "studio",
+    "compatible_with": ["SKU001"],
+    "warranty": {
+      "duration_months": 12,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Cable damage, ear pad wear"
+    },
+    "vector_id": "vec_003",
+    "description": "Industry-standard professional monitor headphones with exceptional clarity and comfort for extended wear."
+  },
+  {
+    "sku": "SKU004",
+    "name": "Focusrite Scarlett Solo USB Audio Interface",
+    "brand": "Focusrite",
+    "category": "audio_interface",
+    "specs": {
+      "connection_type": {"value": "USB-C", "unit": null, "confidence": "high"},
+      "sample_rate": {"value": "192kHz/24-bit", "unit": "KHZ", "confidence": "high"},
+      "phantom_power": {"value": true, "unit": null, "confidence": "high"}
+    },
+    "use_cases": ["vocal_recording", "instrument_recording", "podcasting"],
+    "skill_level": "intermediate",
+    "environment": "studio",
+    "compatible_with": ["SKU001", "SKU003"],
+    "warranty": {
+      "duration_months": 36,
+      "coverage": "Full hardware warranty",
+      "exclusions": "Software licenses, cosmetic damage"
+    },
+    "vector_id": "vec_004",
+    "description": "The world's best-selling audio interface. Crystal-clear preamps with low noise for professional-quality recordings."
+  },
+  {
+    "sku": "SKU005",
+    "name": "Elgato Wave:3 USB Condenser Microphone",
+    "brand": "Elgato",
+    "category": "microphone",
+    "specs": {
+      "connection_type": {"value": "USB-C", "unit": null, "confidence": "high"},
+      "polar_pattern": {"value": "Cardioid", "unit": null, "confidence": "high"},
+      "freq_response": {"value": "70Hz-20kHz", "unit": "HTZ", "confidence": "high"},
+      "phantom_power": {"value": false, "unit": null, "confidence": "high"},
+      "sample_rate": {"value": "96kHz/24-bit", "unit": "KHZ", "confidence": "high"}
+    },
+    "use_cases": ["streaming", "podcasting", "gaming", "video_calls"],
+    "skill_level": "beginner",
+    "environment": "home_untreated",
+    "compatible_with": ["SKU002"],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "Manufacturing defects",
+      "exclusions": "Physical damage, unauthorized modification"
+    },
+    "vector_id": "vec_005",
+    "description": "Studio-grade USB microphone built for streamers and podcasters. Features Clipguard technology to prevent audio distortion."
+  },
+  {
+    "sku": "SKU006",
+    "name": "Shure SM7B Dynamic Vocal Microphone",
+    "brand": "Shure",
+    "category": "microphone",
+    "specs": {
+      "connection_type": {"value": "XLR", "unit": null, "confidence": "high"},
+      "polar_pattern": {"value": "Cardioid", "unit": null, "confidence": "high"},
+      "freq_response": {"value": "50Hz-20kHz", "unit": "HTZ", "confidence": "high"},
+      "phantom_power": {"value": false, "unit": null, "confidence": "high"}
+    },
+    "use_cases": ["podcasting", "vocal_recording", "streaming"],
+    "skill_level": "pro",
+    "environment": "studio",
+    "compatible_with": ["SKU004"],
+    "warranty": {
+      "duration_months": 24,
+      "coverage": "Manufacturing defects and workmanship",
+      "exclusions": "Physical damage, moisture damage"
+    },
+    "vector_id": "vec_006",
+    "description": "The legendary broadcast-quality dynamic microphone used by top podcasters and musicians worldwide."
+  }
+]

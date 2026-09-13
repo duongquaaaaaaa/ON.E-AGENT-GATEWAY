@@ -1,0 +1,48 @@
+{
+  "keys": [
+    {
+      "key": "agt-key-demo-001",
+      "agent_id": "agt_demo_1",
+      "name": "Demo Agent 1 (Sample Script)",
+      "rate_limit_per_minute": 60,
+      "active": true
+    },
+    {
+      "key": "agt-key-demo-002",
+      "agent_id": "agt_demo_2",
+      "name": "Demo Agent 2 (Test Suite)",
+      "rate_limit_per_minute": 60,
+      "active": true
+    },
+    {
+      "key": "agt-key-hackathon-judge",
+      "agent_id": "agt_judge",
+      "name": "Hackathon Judge",
+      "rate_limit_per_minute": 120,
+      "active": true
+    }
+  ],
+  "auth_tokens": [
+    {
+      "token": "tok_limited_50usd",
+      "agent_id": "agt_demo_1",
+      "spend_limit_usd": 50.00,
+      "expires_at": "2027-12-31T23:59:59Z",
+      "used_usd": 0.00
+    },
+    {
+      "token": "tok_limited_500usd",
+      "agent_id": "agt_demo_2",
+      "spend_limit_usd": 500.00,
+      "expires_at": "2027-12-31T23:59:59Z",
+      "used_usd": 0.00
+    },
+    {
+      "token": "tok_judge_1000usd",
+      "agent_id": "agt_judge",
+      "spend_limit_usd": 1000.00,
+      "expires_at": "2027-12-31T23:59:59Z",
+      "used_usd": 0.00
+    }
+  ]
+}
